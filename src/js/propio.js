@@ -1,18 +1,19 @@
-// When the user scrolls the page, execute myFunction 
+ // When the user scrolls the page, execute myFunction 
 window.onscroll = function() {myFunction()};
 
 // Get the navbar
-var navbar = document.getElementById("barranav");
+var navbar = $('.fixed-top');
+
 
 // Get the offset position of the navbar
-var sticky = navbar.offsetTop;
+var sticky = navbar.offset().top;
 
 // Add the sticky class to the navbar when you reach its scroll position. Remove "sticky" when you leave the scroll position
 function myFunction() {
   if (window.pageYOffset >= sticky) {
-    navbar.classList.add("sticky")
+    navbar.addClass("sticky")
   } else {
-    navbar.classList.remove("sticky");
+    navbar.removeClass("sticky");
   }
 }
 
@@ -61,7 +62,11 @@ sr.reveal('.animBo2', {
 $('.collapseJQ').on('click', function(){
     $('.navbar-collapse').collapse('hide');
 });
+//desvanece titulo
+$(window).scroll(function(){
+$('div').toggleClass('scrolled', $(this).scrollTop() > 100);
+});
 
-
-
-
+$(window).scroll(function(){
+$('h2').toggleClass('scrolled', $(this).scrollTop() > 100);
+});
