@@ -1,4 +1,4 @@
-// When the user scrolls the page, execute myFunction 
+ // When the user scrolls the page, execute myFunction 
 window.onscroll = function() {myFunction()};
 
 // Get the navbar
@@ -61,7 +61,11 @@ sr.reveal('.animBo2', {
 $('.collapseJQ').on('click', function(){
     $('.navbar-collapse').collapse('hide');
 });
+//desvanece titulo
+$(window).scroll(function(){
+$('div').toggleClass('scrolled', $(this).scrollTop() > 100);
+});
 
-
-
-
+$(window).scroll(function(){
+$('h2').toggleClass('scrolled', $(this).scrollTop() > 100);
+});
