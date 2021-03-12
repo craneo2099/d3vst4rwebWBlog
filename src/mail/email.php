@@ -1,6 +1,6 @@
 <?php
 
-require getEnv('ROOT_PATH') . '/vendor/autoload.php';
+require '/home/koinobor/devstar-novatech.com/vendor/autoload.php';
 use PHPMailer\PHPMailer\PHPMailer;
 use PHPMailer\PHPMailer\Exception;
 
@@ -15,7 +15,7 @@ if($_POST) {
 		http_response_code(400);
 	}
 	define("INC_ROOT",     $_SERVER['DOCUMENT_ROOT']);
-	define("APP_ROOT",     getEnv('ROOT_PATH'));
+	define("APP_ROOT",     '/home/koinobor/devstar-novatech.com');
 
 	define("MAIL_HOST", "mail.devstar-novatech.com");
 	define("MAIL_USER", "contacto@devstar-novatech.com");
@@ -68,7 +68,6 @@ if($_POST) {
 		if(isset($altCuerpo)) {
 			$mailer->AltBody = $altCuerpo;
 		}
-//*
 		if(!$mailer->send()) 
 		{
 			http_response_code(500);
@@ -76,9 +75,7 @@ if($_POST) {
 		else 
 		{
 		    echo 1;
-		}/*/
-		http_response_code(500);
-		//*/
+		}
 	}
 } else {
   //si no se envia por post redireccionamos al index
