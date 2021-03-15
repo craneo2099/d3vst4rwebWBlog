@@ -25,7 +25,7 @@ if($_POST) {
 	$email=$_POST['email'];
 	$telefono=$_POST['phone'];
 	$mensaje=$_POST['message'];
-	$template = file_get_contents(APP_ROOT."/templates/contact_mail.html");
+	$template = file_get_contents(APP_ROOT."templates/contact_mail.html");
 	$template = str_replace('{{correo}}', $email, $template);
 	$template = str_replace('{{telefono}}', $telefono, $template);
 	$cuerpo = str_replace('{{mensaje}}', $mensaje, $template);
@@ -76,8 +76,6 @@ if($_POST) {
 		{
 		    echo 1;
 		}
-		echo 'falla intempestiva';
-			http_response_code(500);
 	}
 } else {
   //si no se envia por post redireccionamos al index
