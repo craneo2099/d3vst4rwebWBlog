@@ -1,21 +1,21 @@
 <?php
 
-require '/home/koinobor/devstar-novatech.com/vendor/autoload.php';
+require __DIR__.'/../vendor/autoload.php';
 use PHPMailer\PHPMailer\PHPMailer;
 use PHPMailer\PHPMailer\Exception;
 
 if($_POST) {
-	if(empty($_POST['name'])      ||
-		empty($_POST['email'])     ||
+	if( empty($_POST['email'])     ||
 		empty($_POST['phone'])     ||
 		empty($_POST['message'])   ||
 		!filter_var($_POST['email'],FILTER_VALIDATE_EMAIL))
 	{
 		echo "Falta algun argumento.";
 		http_response_code(400);
+		return;
 	}
 	define("INC_ROOT",     $_SERVER['DOCUMENT_ROOT']);
-	define("APP_ROOT",     '/home/koinobor/devstar-novatech.com');
+	define("APP_ROOT",     __DIR__.'/../');
 
 	define("MAIL_HOST", "mail.devstar-novatech.com");
 	define("MAIL_USER", "contacto@devstar-novatech.com");
@@ -76,6 +76,8 @@ if($_POST) {
 		{
 		    echo 1;
 		}
+		echo 'falla intempestiva';
+			http_response_code(500);
 	}
 } else {
   //si no se envia por post redireccionamos al index
