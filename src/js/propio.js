@@ -67,5 +67,5 @@ $('div').toggleClass('scrolled', $(this).scrollTop() > 100);
 });
 
 $(window).scroll(function(){
-$('h2').toggleClass('scrolled', $(this).scrollTop() > 100);
+$('h1').toggleClass('scrolled', $(this).scrollTop() > 100);
 });
