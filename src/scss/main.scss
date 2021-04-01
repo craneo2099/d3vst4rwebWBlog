@@ -22,9 +22,11 @@ body{
 }
 
 .active  {
-
   background-color: transparent !important;
+}
 
+.citasBlogFont {
+    font-size: 0.7rem;
 }
 
 .logoBlancoMenu {
@@ -518,7 +520,7 @@ footer {
 }
 
 // cuando es mayor a 768
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 769px) {
     .ocultarGrande {
         display: none;
     }
