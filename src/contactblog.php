@@ -40,7 +40,7 @@
       <div class="collapse navbar-collapse" id="navbarResponsive">
         <ul class="navbar-nav ml-auto">
           <li class="nav-item togglerItem">
-            <a class="nav-link collapseJQ" href="blog.html">Inicio</a>
+            <a class="nav-link collapseJQ" href="Blog.html">Inicio</a>
           </li>
           <li class="nav-item togglerItem">
             <a class="nav-link collapseJQ" href="aboutBlog.html">Acerca de</a>
@@ -76,7 +76,7 @@
   <div class="container">
     <div class="row">
       <div class="col-lg-8 col-md-10 mx-auto">
-        <p>¿Desea mas informaci&oacute;n sobre nuestros servicios? cont&aacute;ctenos y nos comunicaremos con usted.
+        <p>¿Desea mas información sobre nuestros servicios? cont&aacute;ctenos y nos comunicaremos con usted.
         </p>
         <!-- Contact Form - Enter your email address on line 19 of the mail/contact_me.php file to make this form work. -->
         <!-- WARNING: Some web hosts do not allow emails to be sent through forms to common mail hosts like Gmail or Yahoo. It's recommended that you use a private domain email address! -->
@@ -98,7 +98,7 @@
           </div>
           <div class="control-group">
             <div class="form-group col-xs-12 floating-label-form-group controls">
-              <label>N&uacute;mero Telef&oacute;nico</label>
+              <label>Número Telefónico</label>
               <input type="tel" class="form-control" placeholder="N&uacute;mero Telef&oacute;nico" id="phone" required data-validation-required-message="Escriba su n&uacute;mero Telef&oacute;nico.">
               <p class="help-block text-danger"></p>
             </div>
@@ -226,6 +226,7 @@ window.addEventListener('load', function(){
     }
   })
 });
+
 
 function myScripts() {
 

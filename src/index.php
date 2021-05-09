@@ -18,6 +18,7 @@
 	<link rel="stylesheet" href="css/font-awesome.min.css">
 	<link rel="stylesheet" href="css/slider.min.css">
 	<link rel="stylesheet" href="css/main.css">
+	<link rel="stylesheet" type="text/css" href="css/qkconsent.css" />
 
 	<link rel="stylesheet" type="text/css" href="css/qkconsent.css" />
 	<script>
@@ -54,7 +55,7 @@
 	        <a class="nav-link barra collapseJQ" href="#contacto">Contacto</a>
 	      </li>
 	      <li class="nav-item togglerItem">
-	        <a class="nav-link barra collapseJQ" href="blog.html">Blog</a>
+	        <a class="nav-link barra collapseJQ" href="Blog.html">Blog</a>
 	      </li>
 	      <li class="nav-item dropdown togglerItem">
 	        <a class="nav-link dropdown-toggle barra" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -282,7 +283,6 @@
 				</p>				
 			</div>			
 		</div>
-
 		<div class="row justify-content-center py-2 mt-2">
 			<div id="mantenimiento" class="col-md-5 justify-content-center animIzq">
 				<h3 class="titulo3 pb-2 text-center" >MANTENIMIENTO</h3>
@@ -466,7 +466,8 @@
 				<div class="form-group ">
 					<div id="success"></div>
 					<div class="col-3 col-sm-4 col-lg-3 mx-auto mx-sm-1 mx-lg-0 ml-sm-auto ml-lg-auto">
-						<button class="btn contacto contactoBtn">Enviar</button>		
+						
+						<button type="submit" id="sendMessageButton" class="btn contacto contactoBtn">Enviar</button>		
 					</div>
 				</div>
 			</form>
