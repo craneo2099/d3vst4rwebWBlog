@@ -7,7 +7,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <meta name="description" content="Formulario de Contacto de Devstar Novatech Blog mándanos un mensaje y damos soluciones ágiles en temas de computación e informática">
   <meta name="author" content="Devstar Novatech">
-  <link rel="shortcut icon" href="img/postImg/logoBlog.ico">
+  <link rel="shortcut icon" href="Img/postImg/logoBlog.ico">
 
   <title>Devstar Novatech Blog - Contacto</title>
 
@@ -32,7 +32,7 @@
   <!-- Navigation -->
   <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
     <div class="container">
-      <a class="navbar-brand" href="index.html">Devstar Novatech</a>
+      <a class="navbar-brand" href="index.php">Devstar Novatech</a>
       <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
         Men&uacute;
         <i class="fa fa-bars"></i>
@@ -46,7 +46,7 @@
             <a class="nav-link collapseJQ" href="aboutBlog.html">Acerca de</a>
           </li>
           <li class="nav-item togglerItem">
-            <a class="nav-link collapseJQ" href="Blog.html#publicaciones">Posts</a>
+            <a class="nav-link collapseJQ" href="blog.html#publicaciones">Posts</a>
           </li>
           <li class="nav-item togglerItem">
             <a class="nav-link collapseJQ disabled" style="color: #cfcfcf;" href="contact.html">Contacto</a>
@@ -57,7 +57,7 @@
   </nav>
 
   <!-- Page Header -->
-  <header class="masthead" style="background-image: url('img/postImg/espacio.jpg')">
+  <header class="masthead" style="background-image: url('Img/postImg/espacio.jpg')">
     <div class="overlay"></div>
     <div class="container">
       <div class="row">
@@ -112,15 +112,19 @@
           </div>
           <div class="control-group">
             <div class="form-group floating-label-form-group controls">
+            <?php require_once "lib/utilities.php";
+            $captcha=getCaptcha();
+            ?>
               <label>Escribe el texto</label>
               <div class="col-md-10 mx-auto">
                 <div id="captcha" class="row">
-                  <div class="col-md-6 ">
+                  <div class="col-md-7 ">
                     <!-- sustituir por captcha -->
-                    <img src="/Img/a.jpg" alt="Sustituir por captcha" class=""> 
+                    <img src="<?=$captcha->result->captcha?>" alt="captcha" class=""> 
                   </div>
-                  <div class="col-md-6 ">
+                  <div class="col-md-5 ">
                     <input id="captcha" type="text" class="form-control contacto" placeholder="Escribe el Texto" required>
+                    <input id="tokenKcha" type="hidden" value="<?=$captcha->result->token?>" >
                   </div>              
                 </div>
               </div>
@@ -129,7 +133,7 @@
           </div>
           <br>
           <div id="success"></div>
-          <button type="submit" class="btn btn-primary" id="sendMessageButton">Enviar</button>
+          <button type="submit" class="btn btn-primary contacto contactoBtn" id="sendMessageButton">Enviar</button>
         </form>
       </div>
     </div>
@@ -144,7 +148,7 @@
         <div class="col-lg-8 col-md-10 mx-auto">
           <ul class="list-inline text-center">
             <li class="list-inline-item">
-              <a href="index.html">
+              <a href="index.php">
                 <span class="fa-stack fa-2x">
                   <!-- <i class="fas fa-circle fa-stack-2x"></i>
                   <i class="fab fa-twitter fa-stack-1x fa-inverse"></i> -->
@@ -153,7 +157,7 @@
               </a>
             </li>
             <li class="list-inline-item">
-              <a href="index.html">
+              <a href="index.php">
                 <span class="fa-stack fa-2x">
                   <!-- <i class="fas fa-circle fa-stack-2x"></i>
                   <i class="fab fa-facebook-f fa-stack-1x fa-inverse"></i> -->
@@ -162,7 +166,7 @@
               </a>
             </li>
             <li class="list-inline-item">
-              <a href="index.html">
+              <a href="index.php">
                 <span class="fa-stack fa-2x">
                   <!-- <i class="fas fa-circle fa-stack-2x"></i>
                   <i class="fab fa-github fa-stack-1x fa-inverse"></i> -->
@@ -181,11 +185,61 @@
   <script src="js/jquery.min.js" charset="utf-8"></script>
   <script src="js/popper.min.js" charset="utf-8"></script>
   <script src="js/bootstrap.min.js" charset="utf-8"></script>
+  <script src="js/jqBootstrapValidation.js" charset="utf-8"></script>
   <!-- Custom scripts for this template -->
   <script src="js/clean-blog.min.js"></script>
   <script src="js/scrollreveal.min.js" charset="utf-8"></script>
-  <script src="js/propio.js" charset="utf-8"></script>
+<script src="js/qkconsent.js" data-cfasync="false"></script>
+<script src="js/devstar.js" charset="utf-8"></script>
+<script>
+window.addEventListener('load', function(){
+  window.cookieconsent.initialise({
+   revokeBtn: "<div class='cc-revoke'></div>",
+   type: "opt-in",
+   theme: "classic",
+   palette: {
+       popup: {
+           background: "rgb(28 44 23 / 90%)",
+           text: "#fff"
+        },
+       button: {
+           background: "#CAD160",
+           text: "#000"
+        }
+    },
+   content: {
+       message: "Utilizamos cookies para mejorar la experiencia de los usuarios y para analizar "+
+       "la concurrencia al sitio web. Por estas razones, es posible que compartamos los datos que ha"+
+       " proporcionado con nuestros socios de analíticas web. Al hacer clic en \"Acepto cookies\","+
+       " usted autoriza el almacenamiento de todas las tecnologías descriptas en nuestra Política de"+
+       " cookies en su dispositivo.",
+       link: "politicas",
+       allow: "Acepto cookies",
+       deny: "Rechazar",
+       href: "mrvcookie.com/cookies"
+    },
+    onInitialise: function(status) {
+      if(status == cookieconsent.status.allow) myScripts();
+    },
+    onStatusChange: function(status) {
+      if (this.hasConsented()) myScripts();
+    }
+  })
+});
 
+function myScripts() {
+
+   // Paste here your scripts that use cookies requiring consent. See examples below
+
+   // Google Analytics, you need to change 'UA-00000000-1' to your ID
+      (function(wdw,doc,tag,url,ja,a,m){
+      a=doc.createElement(tag),m=doc.getElementsByTagName(tag)[0];
+      a.async=1;
+      a.src=url;
+      m.parentNode.insertBefore(a,m)
+      })(window,document,'script','https://www.googletagmanager.com/gtag/js?id=UA-142838512-1','gtag');
+}
+</script>
 </body>
 
 </html>

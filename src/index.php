@@ -12,19 +12,27 @@
 	</script>
 	<![endif]-->
 	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins">
-	<link rel="shortcut icon" href="img/logo2.png"> 
+	<link rel="shortcut icon" href="Img/logo2.webp">
 	<title>Devstar Novatech - Soluciones en Inform&aacute;tica</title>
 	<link rel="stylesheet" href="css/bootstrap.css">
 	<link rel="stylesheet" href="css/font-awesome.min.css">
 	<link rel="stylesheet" href="css/slider.min.css">
 	<link rel="stylesheet" href="css/main.css">
 
+	<link rel="stylesheet" type="text/css" href="css/qkconsent.css" />
+	<script>
+		window.dataLayer = window.dataLayer || [];
+		function gtag(){dataLayer.push(arguments);}
+		gtag('js', new Date());
+  
+		gtag('config', 'UA-142838512-1');
+	  </script>
 </head> 
 <body data-spy="scroll" data-target="#navbarSupportedContent">
 <header id="inicio" class="box1 header">
 	<nav id="barranav" class="navbar navbar-expand-lg fixed-top">
-	  <img src="/Img/logob.png" alt="logoBlanco" class="logoBlancoMenu mx-1"/>
-	  <!-- <img src="/Img/logoBN.png" alt="logoBlanco" class="logoBlancoMenu mx-1"> -->
+	  <img src="Img/logoB.webp" alt="logoBlanco" class="logoBlancoMenu mx-1"/>
+	  <!-- <img src="Img/logoBN.webp" alt="logoBlanco" class="logoBlancoMenu mx-1"> -->
 	  <a class="navbar-brand text-white barraLogo" href="#">DEVSTAR NOVATECH</a>
 	  <!-- <h1 class="navbar-brand text-white barraLogo" href="#">DEVSTAR NOVATECH</h1> -->
 	  <button class="navbar-toggler togglerA" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -95,7 +103,7 @@
 			</div>	
 		</div>
 <!-- 		<div class="whats ">
-			<img src="Img/whats1.png" alt="" class="imgWhats">
+			<img src="Img/whats1.webp" alt="" class="imgWhats">
 		</div> -->
 		<a href="https://api.whatsapp.com/send?phone=525563262446&text=Hola%21%20Quisiera%20m%C3%A1s%20informaci%C3%B3n." class="float1" target="_blank">
 		<i class="fa fa-whatsapp my-float"></i>
@@ -113,7 +121,7 @@
 		<div class="row justify-content-center pt-4 ">
 			<div class="col-md-3 ">
 				<div class="ocultarGrande card solucionesInfo py-2">
-					<img src="/Img/img_trans.gif" alt="aplicaciones.png" class="card-img-top mx-auto d-block align-self-center aplicaciones">
+					<img src="Img/img_trans.gif" alt="aplicaciones.webp" class="card-img-top mx-auto d-block align-self-center aplicaciones">
 					<div class="card-body border-white border-bottom mt-md-4">
 						<div class="d-flex justify-content-center">
 							<h3 class="titulo5">APLICACIONES</h3>			
@@ -125,7 +133,7 @@
 					</div>
 				</div>
 				<div class="ocultarChico card solucionesInfo pb-2 animIzq">	
-					<img src="/Img/img_trans.gif" alt="aplicaciones.png" class="card-img-top mx-auto d-block align-self-center aplicaciones">
+					<img src="Img/img_trans.gif" alt="aplicaciones.webp" class="card-img-top mx-auto d-block align-self-center aplicaciones">
 					<div class="card-body border-white border-top mt-4">
 						<div class="d-flex justify-content-center">
 							<h3 class="titulo5">APLICACIONES</h3>							
@@ -136,7 +144,7 @@
 			</div>
 			<div class="col-md-3">
 				<div class="ocultarGrande card solucionesInfo py-2">
-					<img src="/Img/img_trans.gif" alt="mantenimiento.png" class="card-img-top mx-auto d-block align-self-center mantenimiento">
+					<img src="Img/img_trans.gif" alt="mantenimiento.webp" class="card-img-top mx-auto d-block align-self-center mantenimiento">
 					<div class="card-body border-white border-bottom borderChicoNone mt-md-4">
 						<div class="d-flex justify-content-center">
 							<h3 class="titulo5">MANTENIMIENTO</h3>							
@@ -148,7 +156,7 @@
 					</div>
 				</div>
 				<div class="ocultarChico card solucionesInfo pb-2 animTop">
-					<img src="/Img/img_trans.gif" alt="mantenimiento.png" class="card-img-top mx-auto d-block align-self-center mantenimiento">
+					<img src="Img/img_trans.gif" alt="mantenimiento.webp" class="card-img-top mx-auto d-block align-self-center mantenimiento">
 					<div class="card-body border-white border-top mt-4">
 						<div class="d-flex justify-content-center">
 							<h3 class="titulo5">MANTENIMIENTO</h3>							
@@ -159,7 +167,7 @@
 			</div>
 			<div class="col-md-3">
 				<div class="ocultarGrande card solucionesInfo justify-content-center py-2">
-					<img src="/Img/img_trans.gif" alt="consultoria.png" class="card-img-top mx-auto d-block align-self-center consultoria">
+					<img src="Img/img_trans.gif" alt="consultoria.webp" class="card-img-top mx-auto d-block align-self-center consultoria">
 					<div class="card-body mt-md-4">
 						<div class="d-flex justify-content-center">
 							<h3 class="titulo5">CONSULTOR&Iacute;A</h3>
@@ -171,7 +179,7 @@
 					</div>
 				</div>
 				<div class="ocultarChico card solucionesInfo justify-content-center pb-2 animDer">
-					<img src="/Img/img_trans.gif" alt="consultoria.png" class="card-img-top mx-auto d-block align-self-center consultoria">
+					<img src="Img/img_trans.gif" alt="consultoria.webp" class="card-img-top mx-auto d-block align-self-center consultoria">
 					<div class="card-body border-white border-top mt-4">
 						<div class="d-flex justify-content-center">
 							<h3 class="titulo5">CONSULTOR&Iacute;A</h3>
@@ -217,7 +225,7 @@
 
 			<div class="col-md-4 col-lg-3 py-3 py-sm-0 my-md-auto animIzq">
 				<div class="d-flex justify-content-center">
-    				<img src="/Img/devAnt.png" alt="logoDevAnt" class="logoDevAnt img-fluid">
+    				<img src="Img/devAnt.webp" alt="logoDevAnt" class="logoDevAnt img-fluid">
 				</div>
 			</div>
 
@@ -243,7 +251,7 @@
 		<h3 class="titulo2 animTop">ALIADO DE "TI" CON VISI&Oacute;N COMPARTIDA</h3>
 		<div class="row justify-content-center pt-4 pb-2 mt-2">			
 			<div class="col-md-3 my-auto animIzq">
-				<img src="/Img/img_trans.gif" alt="quien" class="mx-auto d-block align-self-center appWeb">				 
+				<img src="Img/img_trans.gif" alt="quien" class="mx-auto d-block align-self-center appWeb">				 
 			</div>
 			<div class="col-md-7 animDer">
 				<h4 class="titulo4">APLICACIONES WEB</h4>
@@ -254,7 +262,7 @@
 		</div>
 		<div class="row justify-content-center py-2">
 			<div class="col-md-3 my-auto animIzq">
-				<img src="/Img/img_trans.gif" alt="quien" class="mx-auto d-block align-self-center appMov ">				 
+				<img src="Img/img_trans.gif" alt="quien" class="mx-auto d-block align-self-center appMov ">				 
 			</div>
 			<div class="col-md-7 animDer">
 				<h4 class="titulo4">APLICACIONES M&Oacute;VILES</h4>
@@ -265,7 +273,7 @@
 		</div>
 		<div class="row justify-content-center py-2 mb-2">
 			<div class="col-md-3 my-auto animIzq">
-				<img src="/Img/img_trans.gif" alt="quien" class="mx-auto d-block align-self-center webSite ">				 
+				<img src="Img/img_trans.gif" alt="quien" class="mx-auto d-block align-self-center webSite ">				 
 			</div>
 			<div class="col-md-7 animDer">
 				<h4 class="titulo4">SITIOS WEB</h4>
@@ -279,7 +287,7 @@
 			<div id="mantenimiento" class="col-md-5 justify-content-center animIzq">
 				<h3 class="titulo3 pb-2 text-center" >MANTENIMIENTO</h3>
 				<ul class="">
-					<li>Desarrollo, mantenimiento y distribuci&oacute;n de software, Apps y sitos web.</li>
+					<li>Desarrollo, mantenimiento y distribuci&oacute;n de software, Apps y sitis web.</li>
 					<li>Arrendamiento, Mantenimiento y venta de equipo de c&oacute;mputo y redes.</li>					
 					<li>Administraci&oacute;n de bases de datos.</li>					
 					<li>An&aacute;lisis y optimizaci&oacute;n de procesos de TI.</li>
@@ -287,7 +295,7 @@
 				</ul>
 			</div>
 			<div class="col-md-5 animIzq">
-				<img src="/Img/mante.jpg" alt="mante.jpg" class="rounded mx-auto d-block align-self-center img-fluid">		
+				<img src="Img/mante.jpg" alt="mante.jpg" class="rounded mx-auto d-block align-self-center img-fluid">		
 			</div>
 		</div>
 		<div class="row justify-content-center py-2 mt-2">
@@ -305,12 +313,27 @@
 				</ul>
 			</div>
 			<div class="col-md-5 animDer">
-				<img src="/Img/consul.jpg" alt="consul.jpg" class="rounded mx-auto d-block align-self-center img-fluid">		
+				<img src="Img/consul.jpg" alt="consul.jpg" class="rounded mx-auto d-block align-self-center img-fluid">		
 			</div>						
 		</div>
+<!-- 		<div class="row justify-content-center py-2">			
+			<div class="col-md-5">
+				<h3 class="titulo3 pb-2 text-center">PRODUCTOS</h3>
+				<ul>
+					<li>Cloud computing.</li>
+					<li>Digitalizaci&oacute;n, preservaci&oacute;n y administraci&oacute;n de documentos y material hist&oacute;rico.</li>
+					<li>Ingenier&iacute;a inversa y miner&iacute;a de datos.</li>
+					<li>Monitoreo remoto de sistemas.</li>					
+					<li>Implementaciones de Realidad virtual, visi&oacute;n artificial, Inteligencia artificial, reconocimiento de patrones.</li>
+					<li>Servicios de streaming de contenido multimedia en la red.</li>
+
+					<li>Sistemas inteligentes.</li>
+				</ul>
+			</div>						
+		</div> -->
 		<div class="row justify-content-center py-4 animIzq">
 			<div class="col-md-10 my-auto noMostrarMenor768">
-				<img src="/Img/fondoSol2.png" alt="fondoSol2" class="rounded mx-auto d-block align-self-center img-fluid">				 
+				<img src="Img/fondoSol2.webp" alt="fondoSol2" class="rounded mx-auto d-block align-self-center img-fluid">		
 			</div>			
 		</div>
 		<div class="row justify-content-center py-4 animBo2">			
@@ -332,7 +355,7 @@
 		<h3 class="titulo2 animTop">MEET DEVSTAR</h3>
 		<div class="row justify-content-center py-4 animIzq">			
 			<div class="col-md-3 my-auto">
-				<img src="/Img/img_trans.gif" alt="quien" class="mx-auto d-block align-self-center quienSomos ">				 
+				<img src="Img/img_trans.gif" alt="quien" class="mx-auto d-block align-self-center quienSomos ">				 
 			</div>
 			<div class="col-md-7">
 				<h4 class="titulo3">QUI&Eacute;NES SOMOS</h4>
@@ -346,7 +369,7 @@
 		</div>
 		<div class="row justify-content-center py-4 animIzq">			
 			<div class="col-md-3 my-auto">
-				<img src="/Img/img_trans.gif" alt="vision" class="mx-auto d-block align-self-center vision ">				 
+				<img src="Img/img_trans.gif" alt="vision" class="mx-auto d-block align-self-center vision ">				 
 			</div>
 			<div class="col-md-7">
 				<h4 class="titulo3">VISI&Oacute;N</h4>
@@ -357,7 +380,7 @@
 		</div>
 		<div class="row justify-content-center py-4 animIzq">			
 			<div class="col-md-3 my-auto">
-				<img src="/Img/img_trans.gif" alt="quien" class="mx-auto d-block align-self-center mision">				 
+				<img src="Img/img_trans.gif" alt="quien" class="mx-auto d-block align-self-center mision">				 
 			</div>
 			<div class="col-md-7">
 				<h4 class="titulo3">MISI&Oacute;N</h4>
@@ -374,7 +397,7 @@
 		</div>
 		<div class="row justify-content-center py-4 animIzq">			
 			<div class="col-md-3 my-auto">
-				<img src="/Img/img_trans.gif" alt="quien" class="mx-auto d-block align-self-center tecnologia">				 
+				<img src="Img/img_trans.gif" alt="quien" class="mx-auto d-block align-self-center tecnologia">				 
 			</div>
 			<div class="col-md-7">
 				<h4 class="titulo3">TECNOLOG&Iacute;A</h4>
@@ -403,7 +426,7 @@
 					<h4 class="titulo4 text-uppercase">D&iacute;ganos sus necesidades y nosotros le proponemos una soluci&oacute;n</h4>
 				</aside>
 			</div>
-			<form action="" class="col-md-7 animDer">
+			<form id="contactForm" action="" class="col-md-7 animDer">
 				<div class="form-group">
 					<label for="email" class="control-label col-md-2 sr-only">Email*:</label>
 					<div class="col-md-10 mx-auto">
@@ -411,32 +434,37 @@
 					</div>				
 				</div>				
 				<div class="form-group">
-					<label for="telefono" class="control-label col-md-2 sr-only">Tel&eacute;fono:</label>
+					<label for="phone" class="control-label col-md-2 sr-only">Tel&eacute;fono::</label>
 					<div class="col-md-10 mx-auto">
-						<input id="telefono" type="text" class="form-control contacto" placeholder="Tel&eacute;fono" required>
+						<input id="phone" type="text" class="form-control contacto" placeholder="Tel&eacute;fono" required>
 					</div>				
 				</div>
 				<div class="form-group">
-					<label for="mensaje" class="control-label col-md-2 sr-only ">Mensaje:</label>
+					<label for="message" class="control-label col-md-2 sr-only ">Mensaje:</label>
 					<div class="col-md-10 mx-auto">
-						<textarea name="mensaje" id="mensaje"  placeholder="Mensaje" rows="5" class="form-control contacto"></textarea>
+						<textarea name="message" id="message"  placeholder="Mensaje" rows="5" class="form-control contacto" required></textarea>
 					</div>
 				</div>
 				<div class="form-group">
+				<?php require_once "lib/utilities.php";
+				$captcha=getCaptcha();
+				?>
 					<label for="captcha" class="control-label col-md-2 sr-only">Captcha:</label>
 					<div class="col-md-10 mx-auto">
 						<div id="captcha" class="row">
-							<div class="col-md-6 pb-1">
+							<div class="col-md-7 pb-1">
 								<!-- sustituir por captcha -->
-								<img src="/Img/a.jpg" alt="captcha.jpg" class="">	
+								<img src="<?=$captcha->result->captcha?>"  alt="captcha" class="">	
 							</div>
-							<div class="col-md-6 ">
-								<input type="text" class="form-control contacto" placeholder="Escribe el Texto" required>
+							<div class="col-md-5 ">
+								<input id="captcha" type="text" class="form-control contacto" placeholder="Escribe el Texto" required>
+								<input id="tokenKcha" type="hidden" value="<?=$captcha->result->token?>" >
 							</div>							
 						</div>
 					</div>
 				</div>
 				<div class="form-group ">
+					<div id="success"></div>
 					<div class="col-3 col-sm-4 col-lg-3 mx-auto mx-sm-1 mx-lg-0 ml-sm-auto ml-lg-auto">
 						<button class="btn contacto contactoBtn">Enviar</button>		
 					</div>
@@ -453,7 +481,7 @@
 				<div class="finalInfo finalInfo1st">					
 					<div class="row justify-content-center pt-2">
 						<div class="col-4 col-md-4 py-2 py-md-0 mt-lg-2 my-auto">
-							<img src="/Img/logob.png" alt="logoBlanco" class="logoFinBlanco">
+							<img src="Img/logoB.webp" alt="logoBlanco" class="logoFinBlanco">
 						</div>
 						<div class="col-7 col-md-8 mt-md-2 px-0 my-auto my-lg-0">
 							<h2 class="titulo4F pt-2">DEVSTAR NOVATECH</h2>
@@ -490,7 +518,7 @@
 							<i class="fa fa-phone"></i>
 						</div>
 						<div class="col-7 col-sm-10 plh">
-							<p class="mb-0"><a href="tel:+(52)5563262446" style="color: white;">5563262446</a></p>
+							<p class="mb-0"><a href="tel:+(52) 5563262446" style="color: white;">5563262446</a></p>
 						</div>
 					</div>
 					<div class="row justify-content-center">
@@ -538,7 +566,59 @@
 <script src="js/jquery.min.js" ></script>
 <script src="js/popper.min.js" ></script>
 <script src="js/bootstrap.min.js" ></script>
+<script src="js/jqBootstrapValidation.js" ></script>
 <script src="js/scrollreveal.min.js" ></script>
 <script src="js/propio.js" ></script>
+<script src="js/qkconsent.js" data-cfasync="false"></script>
+<script src="js/devstar.js" ></script>
+<script>
+window.addEventListener('load', function(){
+  window.cookieconsent.initialise({
+   revokeBtn: "<div class='cc-revoke'></div>",
+   type: "opt-in",
+   theme: "classic",
+   palette: {
+       popup: {
+           background: "rgb(28 44 23 / 90%)",
+           text: "#fff"
+        },
+       button: {
+           background: "#CAD160",
+           text: "#000"
+        }
+    },
+   content: {
+       message: "Utilizamos cookies para mejorar la experiencia de los usuarios y para analizar "+
+       "la concurrencia al sitio web. Por estas razones, es posible que compartamos los datos que ha"+
+       " proporcionado con nuestros socios de analíticas web. Al hacer clic en \"Acepto cookies\","+
+       " usted autoriza el almacenamiento de todas las tecnologías descriptas en nuestra Política de"+
+       " cookies en su dispositivo.",
+       link: "politicas",
+       allow: "Acepto cookies",
+       deny: "Rechazar",
+       href: "mrvcookie.com/cookies"
+    },
+    onInitialise: function(status) {
+      if(status == cookieconsent.status.allow) myScripts();
+    },
+    onStatusChange: function(status) {
+      if (this.hasConsented()) myScripts();
+    }
+  })
+});
+
+function myScripts() {
+
+   // Paste here your scripts that use cookies requiring consent. See examples below
+
+   // Google Analytics, you need to change 'UA-00000000-1' to your ID
+      (function(wdw,doc,tag,url,ja,a,m){
+		  a=doc.createElement(tag),m=doc.getElementsByTagName(tag)[0];
+		  a.async=1;
+		  a.src=url;
+		  m.parentNode.insertBefore(a,m)
+      })(window,document,'script','https://www.googletagmanager.com/gtag/js?id=UA-142838512-1','gtag');
+}
+</script>
 </body>
 </html>
