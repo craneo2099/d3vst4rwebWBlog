@@ -19,8 +19,6 @@
 	<link rel="stylesheet" href="css/slider.min.css">
 	<link rel="stylesheet" href="css/main.css">
 	<link rel="stylesheet" type="text/css" href="css/qkconsent.css" />
-
-	<link rel="stylesheet" type="text/css" href="css/qkconsent.css" />
 	<script>
 		window.dataLayer = window.dataLayer || [];
 		function gtag(){dataLayer.push(arguments);}

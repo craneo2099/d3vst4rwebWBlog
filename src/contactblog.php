@@ -25,6 +25,14 @@
   <link href="css/clean-blog.min.css" rel="stylesheet">
   <link rel="stylesheet" href="css/slider.min.css">
   <link rel="stylesheet" href="css/main.css">
+	<link rel="stylesheet" type="text/css" href="css/qkconsent.css" />
+  <script>
+		window.dataLayer = window.dataLayer || [];
+		function gtag(){dataLayer.push(arguments);}
+		gtag('js', new Date());
+  
+		gtag('config', 'UA-142838512-1');
+	  </script>
 </head>
 
 <body>
