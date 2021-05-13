@@ -19,8 +19,6 @@
 	<link rel="stylesheet" href="css/slider.min.css">
 	<link rel="stylesheet" href="css/main.css">
 	<link rel="stylesheet" type="text/css" href="css/qkconsent.css" />
-
-	<link rel="stylesheet" type="text/css" href="css/qkconsent.css" />
 	<script>
 		window.dataLayer = window.dataLayer || [];
 		function gtag(){dataLayer.push(arguments);}
@@ -55,7 +53,7 @@
 	        <a class="nav-link barra collapseJQ" href="#contacto">Contacto</a>
 	      </li>
 	      <li class="nav-item togglerItem">
-	        <a class="nav-link barra collapseJQ" href="Blog.html">Blog</a>
+	        <a class="nav-link barra collapseJQ" href="blog.html">Blog</a>
 	      </li>
 	      <li class="nav-item dropdown togglerItem">
 	        <a class="nav-link dropdown-toggle barra" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
