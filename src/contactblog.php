@@ -40,10 +40,10 @@
       <div class="collapse navbar-collapse" id="navbarResponsive">
         <ul class="navbar-nav ml-auto">
           <li class="nav-item togglerItem">
-            <a class="nav-link collapseJQ" href="Blog.html">Inicio</a>
+            <a class="nav-link collapseJQ" href="blog.html">Inicio</a>
           </li>
           <li class="nav-item togglerItem">
-            <a class="nav-link collapseJQ" href="aboutBlog.html">Acerca de</a>
+            <a class="nav-link collapseJQ" href="aboutblog.html">Acerca de</a>
           </li>
           <li class="nav-item togglerItem">
             <a class="nav-link collapseJQ" href="blog.html#publicaciones">Posts</a>
