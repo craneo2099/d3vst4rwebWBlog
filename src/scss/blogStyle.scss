@@ -27,3 +27,18 @@
     background-color: #2583a0 !important;
     border: solid 1px #2583a0;
 }
+
+// portada del post
+.portadaXl{
+    background-image: url(../Img/fondoWebAlt_xl.webp);
+    // background: url('../../Img/postImg/hosting-servidoresXl.jpg');
+
+}
+
+.portadaMed {
+    background-image: url('../../Img/postImg/hosting-servidoresXl.jpg');
+}
+
+.circuloBull {
+  list-style-type: circle;
+}

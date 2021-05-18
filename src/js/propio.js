@@ -2,18 +2,17 @@
 window.onscroll = function() {myFunction()};
 
 // Get the navbar
-var navbar = $('.fixed-top');
-
+var navbar = document.getElementById("barranav");
 
 // Get the offset position of the navbar
-var sticky = navbar.offset().top;
+var sticky = navbar.offsetTop;
 
 // Add the sticky class to the navbar when you reach its scroll position. Remove "sticky" when you leave the scroll position
 function myFunction() {
   if (window.pageYOffset >= sticky) {
-    navbar.addClass("sticky")
+    navbar.classList.add("sticky")
   } else {
-    navbar.removeClass("sticky");
+    navbar.classList.remove("sticky");
   }
 }
 
@@ -70,3 +69,16 @@ $('div').toggleClass('scrolled', $(this).scrollTop() > 100);
 $(window).scroll(function(){
 $('h1').toggleClass('scrolled', $(this).scrollTop() > 100);
 });
+
+// Detecta tamaño de ventana
+function FuntionResize() {
+    var widthBrowser = window.outerWidth;
+    // var heightBrowser = window.outerHeight;
+
+	if (widthBrowser <= 1024) {		
+    	document.getElementById('tituloSoluciones').classList.remove('absoluto');
+	} else {
+		document.getElementById('tituloSoluciones').classList.add('absoluto');
+	}
+}
+
