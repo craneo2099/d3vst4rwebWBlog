@@ -25,14 +25,14 @@
   <link href="css/clean-blog.min.css" rel="stylesheet">
   <link rel="stylesheet" href="css/slider.min.css">
   <link rel="stylesheet" href="css/main.css">
-	<link rel="stylesheet" type="text/css" href="css/qkconsent.css" />
+  <link rel="stylesheet" type="text/css" href="css/qkconsent.css" />
   <script>
-		window.dataLayer = window.dataLayer || [];
-		function gtag(){dataLayer.push(arguments);}
-		gtag('js', new Date());
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
   
-		gtag('config', 'UA-142838512-1');
-	  </script>
+    gtag('config', 'UA-142838512-1');
+    </script>
 </head>
 
 <body>
@@ -72,7 +72,7 @@
         <div class="col-lg-8 col-md-10 mx-auto">
           <div class="page-heading">
             <h1>Contacto</h1>
-            <span class="subheading">En alg&uacute;n lugar algo incre&iacute;ble est&aacute; esperando ser descubierto</span>
+            <span class="subheading">En algún lugar algo increíble está esperando ser descubierto</span>
             <span class="caption text-muted">- Carl Sagan</span>
           </div>
         </div>
@@ -126,11 +126,13 @@
               <label>Escribe el texto</label>
               <div class="col-md-10 mx-auto">
                 <div id="captcha" class="row">
-                  <div class="col-md-7 ">
+                  <div class="col-md-6 ">
                     <!-- sustituir por captcha -->
-                    <img src="<?=$captcha->result->captcha?>" alt="captcha" class=""> 
+                    <img src="<?=$captcha->result->captcha?>" alt="a.png" class="img-fluid ocultarGrande"> 
+                    <!-- vista menores 768px -->
+                    <img src="<?=$captcha->result->captcha?>" alt="a.webp" class="img-fluid noMostrarMenor576 noMostrar577767">
                   </div>
-                  <div class="col-md-5 ">
+                  <div class="col-md-6 ">
                     <input id="captcha" type="text" class="form-control contacto" placeholder="Escribe el Texto" required>
                     <input id="tokenKcha" type="hidden" value="<?=$captcha->result->token?>" >
                   </div>              
@@ -190,13 +192,12 @@
   </footer>
 
   <!-- Bootstrap core JavaScript -->
-  <script src="js/jquery.min.js" charset="utf-8"></script>
-  <script src="js/popper.min.js" charset="utf-8"></script>
-  <script src="js/bootstrap.min.js" charset="utf-8"></script>
-  <script src="js/jqBootstrapValidation.js" charset="utf-8"></script>
+  <script src="js/jquery.min.js"></script>
+  <script src="js/popper.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
   <!-- Custom scripts for this template -->
   <script src="js/clean-blog.min.js"></script>
-  <script src="js/scrollreveal.min.js" charset="utf-8"></script>
+  <script src="js/scrollreveal.min.js"></script>
 <script src="js/qkconsent.js" data-cfasync="false"></script>
 <script src="js/devstar.js" charset="utf-8"></script>
 <script>
