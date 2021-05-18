@@ -33,7 +33,7 @@ gulp.task('serve', gulp.series(gulp.parallel('sass'), () => {
 	], gulp.parallel('sass'));
 
 	gulp.watch('src/*.html').on('change', browserSync.reload);
-	gulp.watch('src/posts/*.html').on('change', browserSync.reload);
+	gulp.watch('src/blog/*/*.html').on('change', browserSync.reload);
 }));
 
 gulp.task('font-awesome', () => {

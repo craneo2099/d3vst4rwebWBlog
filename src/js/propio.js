@@ -69,3 +69,16 @@ $('div').toggleClass('scrolled', $(this).scrollTop() > 100);
 $(window).scroll(function(){
 $('h1').toggleClass('scrolled', $(this).scrollTop() > 100);
 });
+
+// Detecta tamaño de ventana
+function FuntionResize() {
+    var widthBrowser = window.outerWidth;
+    // var heightBrowser = window.outerHeight;
+
+	if (widthBrowser <= 1024) {		
+    	document.getElementById('tituloSoluciones').classList.remove('absoluto');
+	} else {
+		document.getElementById('tituloSoluciones').classList.add('absoluto');
+	}
+}
+
