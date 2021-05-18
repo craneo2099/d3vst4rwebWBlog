@@ -1,15 +1,15 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 
 <head>
 
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <meta name="description" content="Formulario de Contacto de Devstar Novatech Blog mándanos un mensaje y damos soluciones ágiles en temas de computación e informática">
+  <meta name="description" content="Ponte en Contacto, mándanos un mensaje te ofrecemos soluciones ágiles en temas de computación e informática">
   <meta name="author" content="Devstar Novatech">
-  <link rel="shortcut icon" href="Img/postImg/logoBlog.ico">
+  <link rel="shortcut icon" href="img/postImg/logoBlog.ico">
 
-  <title>Devstar Novatech Blog - Contacto</title>
+  <title>Contacto | Devstar Novatech Blog</title>
 
   <!-- Bootstrap core CSS -->
   <!-- <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet"> -->
@@ -42,7 +42,7 @@
     <div class="container">
       <a class="navbar-brand" href="index.php">Devstar Novatech</a>
       <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-        Men&uacute;
+        Menú
         <i class="fa fa-bars"></i>
       </button>
       <div class="collapse navbar-collapse" id="navbarResponsive">
@@ -51,10 +51,10 @@
             <a class="nav-link collapseJQ" href="blog.html">Inicio</a>
           </li>
           <li class="nav-item togglerItem">
-            <a class="nav-link collapseJQ" href="aboutblog.html">Acerca de</a>
+            <a class="nav-link collapseJQ" href="aboutBlog.html">Acerca de</a>
           </li>
           <li class="nav-item togglerItem">
-            <a class="nav-link collapseJQ" href="blog.html#publicaciones">Posts</a>
+            <a class="nav-link collapseJQ" href="Blog.html#publicaciones">Posts</a>
           </li>
           <li class="nav-item togglerItem">
             <a class="nav-link collapseJQ disabled" style="color: #cfcfcf;" href="contact.html">Contacto</a>
@@ -65,7 +65,7 @@
   </nav>
 
   <!-- Page Header -->
-  <header class="masthead" style="background-image: url('Img/postImg/espacio.jpg')">
+  <header class="masthead" style="background-image: url('img/postImg/espacio.jpg')">
     <div class="overlay"></div>
     <div class="container">
       <div class="row">
@@ -84,7 +84,7 @@
   <div class="container">
     <div class="row">
       <div class="col-lg-8 col-md-10 mx-auto">
-        <p>¿Desea mas información sobre nuestros servicios? cont&aacute;ctenos y nos comunicaremos con usted.
+        <p>¿Desea mas información sobre nuestros servicios? contáctenos y nos comunicaremos con usted.
         </p>
         <!-- Contact Form - Enter your email address on line 19 of the mail/contact_me.php file to make this form work. -->
         <!-- WARNING: Some web hosts do not allow emails to be sent through forms to common mail hosts like Gmail or Yahoo. It's recommended that you use a private domain email address! -->
@@ -107,7 +107,7 @@
           <div class="control-group">
             <div class="form-group col-xs-12 floating-label-form-group controls">
               <label>Número Telefónico</label>
-              <input type="tel" class="form-control" placeholder="N&uacute;mero Telef&oacute;nico" id="phone" required data-validation-required-message="Escriba su n&uacute;mero Telef&oacute;nico.">
+              <input type="tel" class="form-control" placeholder="Número Telefónico" id="phone" required data-validation-required-message="Escriba su número Telefónico.">
               <p class="help-block text-danger"></p>
             </div>
           </div>
