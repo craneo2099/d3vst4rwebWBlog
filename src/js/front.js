@@ -266,7 +266,7 @@ function map() {
             }
             var map = new google.maps.Map(mapCanvas, mapOptions);
 
-            var markerImage = 'img/marker.png';
+            var markerImage = 'Img/marker.png';
 
             var marker = new google.maps.Marker({
                 position: location,

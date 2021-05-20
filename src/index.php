@@ -14,7 +14,7 @@
 	</script>
 	<![endif]-->
 	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins">
-	<link rel="shortcut icon" href="img/logo.ico">
+	<link rel="shortcut icon" href="Img/logo2.webp">
 	<link rel="stylesheet" href="css/bootstrap.css">
 	<link rel="stylesheet" href="css/font-awesome.min.css">
 	<link rel="stylesheet" href="css/slider.min.css">
@@ -31,8 +31,8 @@
 <body data-spy="scroll" data-target="#navbarSupportedContent" onresize="FuntionResize()">
 <header id="inicio" class="box1 header">
 	<nav id="barranav" class="navbar navbar-expand-lg fixed-top">
-	  <img src="img/logob.png" alt="logoBlanco" class="logoBlancoMenu mx-1"/>
-	  <!-- <img src="img/logoBN.png" alt="logoBlanco" class="logoBlancoMenu mx-1"> -->
+	  <img src="Img/logoB.webp" alt="logoBlanco" class="logoBlancoMenu mx-1"/>
+	  <!-- <img src="Img/logoBN.webp" alt="logoBlanco" class="logoBlancoMenu mx-1"> -->
 	  <a class="navbar-brand text-white barraLogo noMostrarMenor400" href="#inicio">DEVSTAR NOVATECH</a>
 	  <!-- <h1 class="navbar-brand text-white barraLogo" href="#">DEVSTAR NOVATECH</h1> -->
 	  <button class="navbar-toggler togglerA" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -79,7 +79,7 @@
 		<div class="row justify-content-center align-items-center h-100 relativo" >
 			<!-- easter egg -->
 			<div class="fondoTitulo rounded col-md-6 col-lg-5 col-xl-4 absoluto">
-				<img src="img/Jomi.webp" alt="jomi.webp" class="img-fluid" style="display: none;">
+				<img src="Img/Jomi.webp" alt="jomi.webp" class="img-fluid" style="display: none;">
 			</div>
 			<!-- visible mas 1024px -->
 			<div id="tituloSoluciones" class="fondoTitulo rounded col-md-6 col-lg-5 col-xl-4 absoluto">
@@ -102,7 +102,7 @@
 		<div class="row justify-content-center pt-4 ">
 			<div class="col-md-3 ">
 				<div class="ocultarGrande card solucionesInfo py-2">
-					<img src="img/img_trans.gif" alt="aplicaciones.png" class="card-img-top mx-auto d-block align-self-center aplicaciones">
+					<img src="Img/img_trans.gif" alt="aplicaciones.webp" class="card-img-top mx-auto d-block align-self-center aplicaciones">
 					<div class="card-body border-white border-bottom mt-md-4">
 						<div class="d-flex justify-content-center">
 							<h3 class="titulo5">APLICACIONES</h3>			
@@ -114,7 +114,7 @@
 					</div>
 				</div>
 				<div class="noMostrarMenor576 noMostrar577767 card solucionesInfo pb-2 animIzq">	
-					<img src="img/img_trans.gif" alt="aplicaciones.png" class="card-img-top mx-auto d-block align-self-center aplicaciones">
+					<img src="Img/img_trans.gif" alt="aplicaciones.webp" class="card-img-top mx-auto d-block align-self-center aplicaciones">
 					<div class="card-body border-white border-top mt-4">
 						<div class="d-flex justify-content-center">
 							<h3 class="titulo5">APLICACIONES</h3>							
@@ -125,7 +125,7 @@
 			</div>
 			<div class="col-md-3">
 				<div class="ocultarGrande card solucionesInfo py-2">
-					<img src="img/img_trans.gif" alt="img_trans.gif" class="card-img-top mx-auto d-block align-self-center mantenimiento">
+					<img src="Img/img_trans.gif" alt="img_trans.gif" class="card-img-top mx-auto d-block align-self-center mantenimiento">
 					<div class="card-body border-white border-bottom borderChicoNone mt-md-4">
 						<div class="d-flex justify-content-center">
 							<h3 class="titulo5">MANTENIMIENTO</h3>							
@@ -137,7 +137,7 @@
 					</div>
 				</div>
 				<div class="noMostrarMenor576 noMostrar577767 card solucionesInfo pb-2 animTop">
-					<img src="img/img_trans.gif" alt="mantenimiento.png" class="card-img-top mx-auto d-block align-self-center mantenimiento">
+					<img src="Img/img_trans.gif" alt="mantenimiento.webp" class="card-img-top mx-auto d-block align-self-center mantenimiento">
 					<div class="card-body border-white border-top mt-4">
 						<div class="d-flex justify-content-center">
 							<h3 class="titulo5">MANTENIMIENTO</h3>							
@@ -148,7 +148,7 @@
 			</div>
 			<div class="col-md-3">
 				<div class="ocultarGrande card solucionesInfo justify-content-center py-2">
-					<img src="img/img_trans.gif" alt="consultoria.png" class="card-img-top mx-auto d-block align-self-center consultoria">
+					<img src="Img/img_trans.gif" alt="consultoria.webp" class="card-img-top mx-auto d-block align-self-center consultoria">
 					<div class="card-body mt-md-4">
 						<div class="d-flex justify-content-center">
 							<h3 class="titulo5">CONSULTORÍA</h3>
@@ -160,7 +160,7 @@
 					</div>
 				</div>
 				<div class="noMostrarMenor576 noMostrar577767 card solucionesInfo justify-content-center pb-2 animDer">
-					<img src="img/img_trans.gif" alt="consultoria.png" class="card-img-top mx-auto d-block align-self-center consultoria">
+					<img src="Img/img_trans.gif" alt="consultoria.webp" class="card-img-top mx-auto d-block align-self-center consultoria">
 					<div class="card-body border-white border-top mt-4">
 						<div class="d-flex justify-content-center">
 							<h3 class="titulo5">CONSULTORÍA</h3>
@@ -206,7 +206,7 @@
 
 			<div class="col-md-4 col-lg-3 py-3 py-sm-0 my-md-auto animIzq">
 				<div class="d-flex justify-content-center">
-    				<img src="img/devAnt.png" alt="logoDevAnt" class="logoDevAnt img-fluid">
+    				<img src="Img/devAnt.webp" alt="logoDevAnt" class="logoDevAnt img-fluid">
 				</div>
 			</div>
 
@@ -232,7 +232,7 @@
 		<h3 class="titulo2 animTop">ALIADO DE "TI" CON VISIÓN COMPARTIDA</h3>
 		<div class="row justify-content-center pt-4 pb-2 mt-2">			
 			<div class="col-md-3 my-auto animIzq">
-				<img src="img/img_trans.gif" alt="img_trans.gif" class="mx-auto d-block align-self-center appWeb">				 
+				<img src="Img/img_trans.gif" alt="img_trans.gif" class="mx-auto d-block align-self-center appWeb">				 
 			</div>
 			<div class="col-md-7 animDer">
 				<h4 class="titulo4">APLICACIONES WEB</h4>
@@ -243,7 +243,7 @@
 		</div>
 		<div class="row justify-content-center py-2">
 			<div class="col-md-3 my-auto animIzq">
-				<img src="img/img_trans.gif" alt="quien" class="mx-auto d-block align-self-center appMov ">				 
+				<img src="Img/img_trans.gif" alt="quien" class="mx-auto d-block align-self-center appMov ">				 
 			</div>
 			<div class="col-md-7 animDer">
 				<h4 class="titulo4">APLICACIONES MÓVILES</h4>
@@ -254,7 +254,7 @@
 		</div>
 		<div class="row justify-content-center py-2 mb-2">
 			<div class="col-md-3 my-auto animIzq">
-				<img src="img/img_trans.gif" alt="quien" class="mx-auto d-block align-self-center webSite ">				 
+				<img src="Img/img_trans.gif" alt="quien" class="mx-auto d-block align-self-center webSite ">				 
 			</div>
 			<div class="col-md-7 animDer">
 				<h4 class="titulo4">SITIOS WEB</h4>
@@ -276,7 +276,7 @@
 				</ul>
 			</div>
 			<div class="col-md-5 animIzq d-flex align-items-center">
-				<img src="img/informática.jpg" alt="informática.jpg" class="rounded mx-auto d-block align-self-center  img-fluid">	
+				<img src="Img/informática.jpg" alt="informática.jpg" class="rounded mx-auto d-block align-self-center  img-fluid">	
 			</div>
 		</div>
 		<div class="row justify-content-center py-2 mt-2">
@@ -294,12 +294,12 @@
 				</ul>
 			</div>
 			<div class="col-md-5 animDer d-flex align-items-center">
-				<img src="img/consulSm.jpg" alt="consulSm.jpg" class="rounded mx-auto d-block align-self-center img-fluid">		
+				<img src="Img/consulSm.jpg" alt="consulSm.jpg" class="rounded mx-auto d-block align-self-center img-fluid">		
 			</div>						
 		</div>
 		<div class="row justify-content-center py-4 animIzq">
 			<div class="col-md-10 my-auto noMostrarMenor768">
-				<img src="img/soluciones.png" alt="soluciones.png" class="rounded mx-auto d-block align-self-center img-fluid">				 
+				<img src="Img/soluciones.png" alt="soluciones.png" class="rounded mx-auto d-block align-self-center img-fluid">				 
 			</div>			
 		</div>
 		<div class="row justify-content-center py-4 animBo2">			
@@ -321,7 +321,7 @@
 		<h3 class="titulo2 animTop">MEET DEVSTAR</h3>
 		<div class="row justify-content-center py-4 animIzq">			
 			<div class="col-md-3 my-auto">
-				<img src="img/img_trans.gif" alt="quien" class="mx-auto d-block align-self-center quienSomos ">				 
+				<img src="Img/img_trans.gif" alt="quien" class="mx-auto d-block align-self-center quienSomos ">				 
 			</div>
 			<div class="col-md-7">
 				<h4 class="titulo3">¿QUIÉNES SOMOS?</h4>
@@ -335,7 +335,7 @@
 		</div>
 		<div class="row justify-content-center py-4 animIzq">			
 			<div class="col-md-3 my-auto">
-				<img src="img/img_trans.gif" alt="vision" class="mx-auto d-block align-self-center vision ">				 
+				<img src="Img/img_trans.gif" alt="vision" class="mx-auto d-block align-self-center vision ">				 
 			</div>
 			<div class="col-md-7">
 				<h4 class="titulo3">VISIÓN</h4>
@@ -346,7 +346,7 @@
 		</div>
 		<div class="row justify-content-center py-4 animIzq">			
 			<div class="col-md-3 my-auto">
-				<img src="img/img_trans.gif" alt="quien" class="mx-auto d-block align-self-center mision">				 
+				<img src="Img/img_trans.gif" alt="quien" class="mx-auto d-block align-self-center mision">				 
 			</div>
 			<div class="col-md-7">
 				<h4 class="titulo3">MISIÓN</h4>
@@ -363,7 +363,7 @@
 		</div>
 		<div class="row justify-content-center py-4 animIzq">			
 			<div class="col-md-3 my-auto">
-				<img src="img/img_trans.gif" alt="quien" class="mx-auto d-block align-self-center tecnologia">				 
+				<img src="Img/img_trans.gif" alt="quien" class="mx-auto d-block align-self-center tecnologia">				 
 			</div>
 			<div class="col-md-7">
 				<h4 class="titulo3">TECNOLOGÍA</h4>
@@ -392,7 +392,7 @@
 					<p class="h4 titulo4 text-uppercase">Le damos soluciones en informática</p>
 				</aside>
 			</div>
-			<form class="col-md-7 animDer">
+			<form id="contactForm" action="" class="col-md-7 animDer">
 				<div class="form-group">
 					<label for="email" class="control-label col-md-2 sr-only">Email*:</label>
 					<div class="col-md-10 mx-auto">
@@ -400,18 +400,21 @@
 					</div>				
 				</div>				
 				<div class="form-group">
-					<label for="telefono" class="control-label col-md-2 sr-only">Teléfono:</label>
+					<label for="phone" class="control-label col-md-2 sr-only">Tel&eacute;fono::</label>
 					<div class="col-md-10 mx-auto">
-						<input id="telefono" type="text" class="form-control contacto" placeholder="Teléfono" required>
+						<input id="phone" type="text" class="form-control contacto" placeholder="Tel&eacute;fono" required>
 					</div>				
 				</div>
 				<div class="form-group">
-					<label for="mensaje" class="control-label col-md-2 sr-only ">Mensaje:</label>
+					<label for="message" class="control-label col-md-2 sr-only ">Mensaje:</label>
 					<div class="col-md-10 mx-auto">
-						<textarea name="mensaje" id="mensaje"  placeholder="Mensaje" rows="5" class="form-control contacto"></textarea>
+						<textarea name="message" id="message"  placeholder="Mensaje" rows="5" class="form-control contacto" required></textarea>
 					</div>
 				</div>
 				<div class="form-group">
+				<?php require_once "lib/utilities.php";
+				$captcha=getCaptcha();
+				?>
 					<label for="captcha" class="control-label col-md-2 sr-only">Captcha:</label>
 					<div class="col-md-10 mx-auto">
 						<div id="captcha" class="row">
@@ -423,14 +426,17 @@
 								<img src="<?=$captcha->result->captcha?>" alt="a.webp" class="img-fluid noMostrarMenor576 noMostrar577767">
 							</div>
 							<div class="col-md-6 ">
-								<input type="text" class="form-control contacto" placeholder="Escribe el Texto" required>
+								<input id="captcha" type="text" class="form-control contacto" placeholder="Escribe el Texto" required>
+								<input id="tokenKcha" type="hidden" value="<?=$captcha->result->token?>" >
 							</div>							
 						</div>
 					</div>
 				</div>
 				<div class="form-group ">
+					<div id="success"></div>
 					<div class="col-3 col-sm-4 col-lg-3 mx-auto mx-sm-1 mx-lg-0 ml-sm-auto ml-lg-auto">
-						<button class="btn contacto contactoBtn">Enviar</button>		
+						
+						<button type="submit" id="sendMessageButton" class="btn contacto contactoBtn">Enviar</button>		
 					</div>
 				</div>
 			</form>
@@ -445,7 +451,7 @@
 				<div class="finalInfo finalInfo1st">					
 					<div class="row justify-content-center pt-2">
 						<div class="col-4 col-md-4 py-2 py-md-0 mt-lg-2 my-auto">
-							<img src="img/logob.png" alt="logoBlanco" class="logoFinBlanco">
+							<img src="Img/logoB.webp" alt="logoBlanco" class="logoFinBlanco">
 						</div>
 						<div class="col-7 col-md-8 mt-md-2 px-0 my-auto my-lg-0">
 							<h2 class="titulo4F pt-2">DEVSTAR NOVATECH</h2>

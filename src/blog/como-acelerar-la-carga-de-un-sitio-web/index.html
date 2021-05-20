@@ -7,7 +7,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <meta name="description" content="Útiles consejos para que la carga de tu sitio web no se detenga por archivos de comando externos JavaScript y posicionarte mejor.">
   <meta name="author" content="Devstar Novatech">
-  <link rel="shortcut icon" href="../../img/postImg/logoBlog.ico">
+  <link rel="shortcut icon" href="../../Img/postImg/logoBlog.ico">
   <title>Como acelerar la carga de tu sitio web | Devstar Novatech Blog</title>
 
   <!-- Bootstrap core CSS -->
@@ -25,6 +25,14 @@
   <link rel="stylesheet" href="../../css/slider.min.css">
   <link rel="stylesheet" href="../../css/main.css">
   <link rel="stylesheet" href="../../css/blogStyle.css">
+	<link rel="stylesheet" type="text/css" href="../../css/qkconsent.css" />
+  <script>
+		window.dataLayer = window.dataLayer || [];
+		function gtag(){dataLayer.push(arguments);}
+		gtag('js', new Date());
+  
+		gtag('config', 'UA-142838512-1');
+	  </script>
 
 </head>
 
@@ -33,7 +41,7 @@
   <!-- Navigation -->
   <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
     <div class="container">
-      <a class="navbar-brand" href="../../index.html">Devstar Novatech</a>
+      <a class="navbar-brand" href="http://devstar-novatech.com/">Devstar Novatech</a>
       <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
         Men&uacute;
         <i class="fa fa-bars"></i>
@@ -47,10 +55,10 @@
             <a class="nav-link" href="../../aboutBlog.html">Acerca de</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="../../Blog.html#publicaciones">Posts</a>
+            <a class="nav-link" href="../../blog.html#publicaciones">Posts</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="../../contactBlog.html">Contacto</a>
+            <a class="nav-link" href="../../contactBlog.php">Contacto</a>
           </li>
         </ul>
       </div>
@@ -58,7 +66,7 @@
   </nav>
 
   <!-- Page Header -->
-  <header class="masthead" style="background-image: url('../../img/postImg/laptop-3174729_1920.jpg')">
+  <header class="masthead" style="background-image: url('../../Img/postImg/laptop-3174729_1920.jpg')">
     <div class="overlay"></div>
     <div class="container">
       <div class="row">
@@ -67,7 +75,7 @@
             <h1>Como acelerar la carga de contenido en tu sitio web</h1>
             <h2 class="subheading">Útiles consejos para que la carga de tu sitio web no se detenga por archivos externos JavaScript</h2>
             <span class="meta">Publicado por
-              <a href="../index.html">Devstar Novatech</a>
+              <a href="http://devstar-novatech.com/">Devstar Novatech</a>
               el 26 de Marzo de 2021</span>
           </div>
         </div>
@@ -156,7 +164,7 @@
           <p class="text-justify">Las secuencias de comandos <b>JavaScript</b> que no sean necesarias para renderizar o cargar páginas por primera vez, pueden cargarse y ejecutarse una vez que se haya completado el primer renderizado o se hayan cargado otras partes más importantes. De este modo, se pueden reducir conflictos de recursos y mejorar el rendimiento.</p>
 
           <p class="text-justify">
-          Si necesitas que tu sitio o página web sean optimizados, <a href="../../contactBlog.html">¡contáctanos!</a> Realizamos el análisis de tu sitio y te proporcionamos soluciones con presupuesto a tu medida.
+          Si necesitas que tu sitio o página web sean optimizados, <a href="../../contactBlog.php">¡contáctanos!</a> Realizamos el análisis de tu sitio y te proporcionamos soluciones con presupuesto a tu medida.
           </p>
 
           <small class="citasBlogFont text-muted">Fuente, 
@@ -167,7 +175,7 @@
           <div>
             <div class="d-flex justify-content-center"><p class="h3">¿Tienes alguna duda o comentario?</p></div>
             <div class="d-flex justify-content-center">
-              <a class="btn btn-outline-dark rounded mt-2" href="../../contactBlog.html"><b>Contacto</b></a>
+              <a class="btn btn-outline-dark rounded mt-2" href="../../contactBlog.php"><b>Contacto</b></a>
             </div>
           </div>
           
@@ -183,7 +191,7 @@
         <div class="col-lg-8 col-md-10 mx-auto">
           <ul class="list-inline text-center">
             <li class="list-inline-item">
-              <a href="../../index.html">
+              <a href="http://devstar-novatech.com/">
                 <span class="fa-stack fa-2x">
                   <!-- <i class="fas fa-circle fa-stack-2x"></i>
                   <i class="fab fa-twitter fa-stack-1x fa-inverse"></i> -->
@@ -192,7 +200,7 @@
               </a>
             </li>
             <li class="list-inline-item">
-              <a href="../../index.html">
+              <a href="http://devstar-novatech.com/">
                 <span class="fa-stack fa-2x">
                   <!-- <i class="fas fa-circle fa-stack-2x"></i>
                   <i class="fab fa-facebook-f fa-stack-1x fa-inverse"></i> -->
@@ -201,7 +209,7 @@
               </a>
             </li>
             <li class="list-inline-item">
-              <a href="../../index.html">
+              <a href="http://devstar-novatech.com/">
                 <span class="fa-stack fa-2x">
                   <!-- <i class="fas fa-circle fa-stack-2x"></i>
                   <i class="fab fa-github fa-stack-1x fa-inverse"></i> -->
@@ -223,6 +231,56 @@
   <!-- Custom scripts for this template -->
   <script src="../../js/clean-blog.min.js"></script>
   <script src="../../js/scrollreveal.min.js"></script>
+  <script src="../../js/qkconsent.js" data-cfasync="false"></script>
+  <script>
+  window.addEventListener('load', function(){
+    window.cookieconsent.initialise({
+     revokeBtn: "<div class='cc-revoke'></div>",
+     type: "opt-in",
+     theme: "classic",
+     palette: {
+         popup: {
+             background: "rgb(28 44 23 / 90%)",
+             text: "#fff"
+          },
+         button: {
+             background: "#CAD160",
+             text: "#000"
+          }
+      },
+     content: {
+         message: "Utilizamos cookies para mejorar la experiencia de los usuarios y para analizar "+
+         "la concurrencia al sitio web. Por estas razones, es posible que compartamos los datos que ha"+
+         " proporcionado con nuestros socios de analíticas web. Al hacer clic en \"Acepto cookies\","+
+         " usted autoriza el almacenamiento de todas las tecnologías descriptas en nuestra Política de"+
+         " cookies en su dispositivo.",
+         link: "politicas",
+         allow: "Acepto cookies",
+         deny: "Rechazar",
+         href: "mrvcookie.com/cookies"
+      },
+      onInitialise: function(status) {
+        if(status == cookieconsent.status.allow) myScripts();
+      },
+      onStatusChange: function(status) {
+        if (this.hasConsented()) myScripts();
+      }
+    })
+  });
+  
+  function myScripts() {
+  
+     // Paste here your scripts that use cookies requiring consent. See examples below
+  
+     // Google Analytics, you need to change 'UA-00000000-1' to your ID
+        (function(wdw,doc,tag,url,ja,a,m){
+        a=doc.createElement(tag),m=doc.getElementsByTagName(tag)[0];
+        a.async=1;
+        a.src=url;
+        m.parentNode.insertBefore(a,m)
+        })(window,document,'script','https://www.googletagmanager.com/gtag/js?id=UA-142838512-1','gtag');
+  }
+  </script>
 
 </body>
 
