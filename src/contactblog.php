@@ -7,7 +7,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <meta name="description" content="Ponte en Contacto, mándanos un mensaje te ofrecemos soluciones ágiles en temas de computación e informática">
   <meta name="author" content="Devstar Novatech">
-  <link rel="shortcut icon" href="img/postImg/logoBlog.ico">
+  <link rel="shortcut icon" href="Img/postImg/logoBlog.ico">
 
   <title>Contacto | Devstar Novatech Blog</title>
 
@@ -40,7 +40,7 @@
   <!-- Navigation -->
   <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
     <div class="container">
-      <a class="navbar-brand" href="index.php">Devstar Novatech</a>
+      <a class="navbar-brand" href="http://devstar-novatech.com">Devstar Novatech</a>
       <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
         Menú
         <i class="fa fa-bars"></i>
@@ -48,13 +48,13 @@
       <div class="collapse navbar-collapse" id="navbarResponsive">
         <ul class="navbar-nav ml-auto">
           <li class="nav-item togglerItem">
-            <a class="nav-link collapseJQ" href="blog.html">Inicio</a>
+            <a class="nav-link collapseJQ" href="index.html">Inicio</a>
           </li>
           <li class="nav-item togglerItem">
             <a class="nav-link collapseJQ" href="aboutBlog.html">Acerca de</a>
           </li>
           <li class="nav-item togglerItem">
-            <a class="nav-link collapseJQ" href="Blog.html#publicaciones">Posts</a>
+            <a class="nav-link collapseJQ" href="index.html#publicaciones">Posts</a>
           </li>
           <li class="nav-item togglerItem">
             <a class="nav-link collapseJQ disabled" style="color: #cfcfcf;" href="contact.html">Contacto</a>
@@ -65,7 +65,7 @@
   </nav>
 
   <!-- Page Header -->
-  <header class="masthead" style="background-image: url('img/postImg/espacio.jpg')">
+  <header class="masthead" style="background-image: url('Img/postImg/espacio.jpg')">
     <div class="overlay"></div>
     <div class="container">
       <div class="row">
@@ -158,7 +158,7 @@
         <div class="col-lg-8 col-md-10 mx-auto">
           <ul class="list-inline text-center">
             <li class="list-inline-item">
-              <a href="index.php">
+              <a href="http://devstar-novatech.com">
                 <span class="fa-stack fa-2x">
                   <!-- <i class="fas fa-circle fa-stack-2x"></i>
                   <i class="fab fa-twitter fa-stack-1x fa-inverse"></i> -->
@@ -167,7 +167,7 @@
               </a>
             </li>
             <li class="list-inline-item">
-              <a href="index.php">
+              <a href="http://devstar-novatech.com">
                 <span class="fa-stack fa-2x">
                   <!-- <i class="fas fa-circle fa-stack-2x"></i>
                   <i class="fab fa-facebook-f fa-stack-1x fa-inverse"></i> -->
@@ -176,7 +176,7 @@
               </a>
             </li>
             <li class="list-inline-item">
-              <a href="index.php">
+              <a href="http://devstar-novatech.com">
                 <span class="fa-stack fa-2x">
                   <!-- <i class="fas fa-circle fa-stack-2x"></i>
                   <i class="fab fa-github fa-stack-1x fa-inverse"></i> -->
@@ -195,6 +195,7 @@
   <script src="js/jquery.min.js"></script>
   <script src="js/popper.min.js"></script>
   <script src="js/bootstrap.min.js"></script>
+  <script src="js/jqBootstrapValidation.js" charset="utf-8"></script>
   <!-- Custom scripts for this template -->
   <script src="js/clean-blog.min.js"></script>
   <script src="js/scrollreveal.min.js"></script>
