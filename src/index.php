@@ -3,9 +3,9 @@
 <head>
 	<meta charset="UTF-8"/>
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<!-- descripcion -->
-	<meta name="description" content="Somos especialistas en desarrollo de software, sitios web, Apps, digitalaización de documentos y computación. Conoce nuestras soluciones en informática."/>
+	<meta name="description" content="Somos especialistas en desarrollo de software, sitios web, Apps, digitalaización de documentos y computación. Conoce nuestras soluciones en informática.">
 	<meta name="author" content="Devstar Novatech">
 	<meta name="robots" content="index, follow">
 	<title>Devstar Novatech | Soluciones en Informática</title>

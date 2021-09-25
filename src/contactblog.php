@@ -5,7 +5,7 @@
 
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <meta name="description" content="Ponte en Contacto, mándanos un mensaje te ofrecemos soluciones ágiles en temas de computación e informática">
+  <meta name="description" content="Ponte en Contacto, mándanos un mensaje te ofrecemos soluciones ágiles en temas de computación e informática"/>
   <meta name="author" content="Devstar Novatech">
   <link rel="shortcut icon" href="img/postImg/logoBlog.ico">
 
