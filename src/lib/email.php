@@ -1,6 +1,6 @@
 <?php
 
-require __DIR__.'/../vendor/autoload.php';
+require __DIR__.'/../../vendor/autoload.php';
 require 'utilities.php';
 use PHPMailer\PHPMailer\PHPMailer;
 use PHPMailer\PHPMailer\Exception;
@@ -22,7 +22,7 @@ if($_POST) {
 		http_response_code(400);
 		return;
 	}
-	define("APP_ROOT",     __DIR__.'/../');
+	define("APP_ROOT",     __DIR__.'/../../');
 
 	define("MAIL_HOST", "mail.devstar-novatech.com");
 	define("MAIL_USER", "contacto@devstar-novatech.com");
