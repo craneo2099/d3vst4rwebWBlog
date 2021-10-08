@@ -1,6 +1,7 @@
 const gulp = require('gulp');
 const browserSync = require('browser-sync');
-const sass =require('gulp-sass');
+const sass = require('gulp-sass')(require('sass'));
+
 
 gulp.task('sass', () => {
 	return gulp.src([
@@ -24,7 +25,7 @@ gulp.task('js', () => {
 
 gulp.task('serve', gulp.series(gulp.parallel('sass'), () => {
 	browserSync.init({
-		server: './src'
+		proxy: "localhost"
 	});
 
 	gulp.watch([
@@ -32,9 +33,9 @@ gulp.task('serve', gulp.series(gulp.parallel('sass'), () => {
 		'src/scss/*.scss'
 	], gulp.parallel('sass'));
 
-	gulp.watch('src/*.html').on('change', browserSync.reload);
 	gulp.watch('src/*.php').on('change', browserSync.reload);
-	gulp.watch('src/entradas/*/*.html').on('change', browserSync.reload);
+	gulp.watch('src/template/*.php').on('change', browserSync.reload);
+	gulp.watch('src/pages/*.php').on('change', browserSync.reload);
 }));
 
 gulp.task('font-awesome', () => {
