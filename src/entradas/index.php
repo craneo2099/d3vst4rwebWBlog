@@ -1,12 +1,18 @@
 <?php
-
-//echo "hola mundo";
+function url(){
+    $salida= sprintf(
+      "%s://%s%s",
+      isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] != 'off' ? 'https' : 'http',
+      $_SERVER['SERVER_NAME'],
+      $_SERVER['REQUEST_URI']
+    );
+    return substr($salida,0,strpos($salida,'entrada'));
+}
 $path=$_SERVER['REQUEST_URI'];
-//echo $path;
 explode("/",$path);
 $url_to_array = parse_url($path);
 $baseUrl = basename($url_to_array['path']);
-//echo $baseUrl;
+$baseindex=url($baseUrl);
 ?>
 
 <!DOCTYPE html>
