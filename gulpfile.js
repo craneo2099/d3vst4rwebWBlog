@@ -8,7 +8,7 @@ gulp.task('sass', () => {
 		'node_modules/bootstrap/scss/bootstrap.scss',
 		'src/scss/*.scss'
 		])
-	.pipe(sass({outputStyle: 'compressed'}))
+	.pipe(sass())
 	.pipe(gulp.dest('src/css'))
 	.pipe(browserSync.stream());
 });
@@ -34,7 +34,9 @@ gulp.task('serve', gulp.series(gulp.parallel('sass'), () => {
 	], gulp.parallel('sass'));
 
 	gulp.watch('src/*.php').on('change', browserSync.reload);
-	gulp.watch('src/template/*.php').on('change', browserSync.reload);
+	gulp.watch('src/*.html').on('change', browserSync.reload);
+	gulp.watch('src/templates/*.html').on('change', browserSync.reload);
+	gulp.watch('src/entradas/*/*.html').on('change', browserSync.reload);
 	gulp.watch('src/pages/*.php').on('change', browserSync.reload);
 }));
 

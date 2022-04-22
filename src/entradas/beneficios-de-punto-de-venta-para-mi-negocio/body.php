@@ -1,69 +1,10 @@
-<!DOCTYPE html>
-<html lang="es">
 
-<head>
-
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <meta name="description" content="Analizamos los diferentes tipos de punto de venta y los beneficios que ofrece para tu negocio">
-  <meta name="author" content="Devstar Novatech">
-  <title>Beneficios de un punto de venta para mi negocio | Devstar Novatech Blo</title>
-  <link rel="shortcut icon" href="/Img/postImg/logoBlog.ico">
-  <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "BlogPosting",
-      "headline": "Beneficios de un punto de venta para mi negocio",
-      "datePublished": "2021-10-09T08:00:00-06:00"
-    }
-    </script>  <!-- Bootstrap core CSS -->
-  <!-- <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet"> -->
-  <link rel="stylesheet" href="/css/bootstrap.css">
-
-  <!-- Custom fonts for this template -->
-  <!-- <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css"> -->
-  <link rel="stylesheet" href="/css/font-awesome.min.css">
-  <link href='https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
-  <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
-
-  <!-- Custom styles for this template -->
-  <link rel="stylesheet" href="/css/clean-blog.min.css">
-  <link rel="stylesheet" href="/css/slider.min.css">
-  <link rel="stylesheet" href="/css/main.css">
-  <link rel="stylesheet" href="/css/blogStyle.css">
-</head>
 
 <body>
 
-  <!-- Navigation -->
-  <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
-    <div class="container">
-      <a class="navbar-brand" href="www.devstar-novatech.com">Devstar Novatech</a>
-      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-        Menú
-        <i class="fa fa-bars"></i>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarResponsive">
-        <ul class="navbar-nav ml-auto">
-          <li class="nav-item">
-            <a class="nav-link" href="/blog.html">Inicio</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="/aboutBlog.html">Acerca de</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="/Blog.html#publicaciones">Posts</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="/contactBlog.php">Contacto</a>
-          </li>
-        </ul>
-      </div>
-    </div>
-  </nav>
 
   <!-- Page Header -->
-  <header class="masthead" style="background-image: url('/Img/postImg/pos.jpg');
+  <header class="masthead" style="background-image: url('Img/postImg/pos.jpg');
   background-color: #000; opacity: 1">
     <div class="overlay"></div>
     <div class="container">
@@ -98,7 +39,7 @@
           <p class="text-justify">¿Suena interesante, verdad? ¡Acompañanos!</p>
 
           <div class="d-flex justify-content-center">
-            <img class="img-fluid" src="/Img/postImg/punto-venta.webp" alt="punto-de-venta-perifericos.webp">
+            <img class="img-fluid" src="img/postImg/punto-venta.webp" alt="punto-de-venta-perifericos.webp">
           </div>
           <span class="caption text-muted">Un sistema de punto de venta nos da beneficios tales como organización y rapidez en nuestros negocios.</span>
 
@@ -180,7 +121,7 @@
           </p>
 
           <div class="d-flex justify-content-center">
-            <img class="img-fluid" src="/Img/postImg/punto-venta-restaurants.webp" alt="punto-de-venta">
+            <img class="img-fluid" src="img/postImg/punto-venta-restaurants.webp" alt="punto-de-venta">
           </div>
           <span class="caption text-muted">Elevando la eficiencia y exactitud aumentamos la productividad de nuestros negocios.</span>
 
@@ -207,12 +148,12 @@
 
           <!-- <blockquote class="blockquote">The dreams of yesterday are the hopes of today and the reality of tomorrow. Science has not yet mastered prophecy. We predict too much for the next year and yet far too little for the next ten.</blockquote> -->
 
-          <p class="text-justify">Si quieres conocer nuestra propuesta en Puntos de venta <a  href="/contactBlog.php"><b>contactanos</b></a> y te asesoramos de forma gratuita, ¡si tu creces, crecemos todos!</p>
+          <p class="text-justify">Si quieres conocer nuestra propuesta en Puntos de venta <a  href="contactBlog.php"><b>contactanos</b></a> y te asesoramos de forma gratuita, ¡si tu creces, crecemos todos!</p>
    
           <div class="">
             <div class="d-flex justify-content-center"><p class="h3">¿Tienes alguna duda o comentario?</p></div>
             <div class="d-flex justify-content-center">
-              <a class="btn btn-outline-dark rounded mt-2" href="/contactBlog.php"><b>Contacto</b></a>
+              <a class="btn btn-outline-dark rounded mt-2" href="contactBlog.php"><b>Contacto</b></a>
             </div>
           </div>
           
@@ -222,50 +163,3 @@
   </article>
 
   <hr>
-
-  <!-- Footer -->
-  <footer>
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-8 col-md-10 mx-auto">
-          <ul class="list-inline text-center">
-            <li class="list-inline-item">
-              <a href="www.devstar-novatech.com">
-                <span class="fa-stack fa-2x">
-                  <i class="fa fa-facebook-official" aria-hidden="true"></i>
-                </span>
-              </a>
-            </li>
-            <li class="list-inline-item">
-              <a href="www.devstar-novatech.com">
-                <span class="fa-stack fa-2x">
-
-                  <i class="fa fa-twitter" aria-hidden="true"></i>
-                </span>
-              </a>
-            </li>
-            <li class="list-inline-item">
-              <a href="www.devstar-novatech.com">
-                <span class="fa-stack fa-2x">
-                  <i class="fa fa-instagram" aria-hidden="true"></i>
-                </span>
-              </a>
-            </li>
-          </ul>
-          <p class="copyright text-muted">Copyright &copy; Devstar Novatech 2021</p>
-        </div>
-      </div>
-    </div>
-  </footer>
-
-  <!-- Bootstrap core JavaScript -->
-  <script src="/js/jquery.min.js"></script>
-  <script src="/js/popper.min.js"></script>
-  <script src="/js/bootstrap.min.js"></script>
-  <!-- Custom scripts for this template -->
-  <script src="/js/clean-blog.min.js"></script>
-  <script src="/js/scrollreveal.min.js"></script>
-
-</body>
-
-</html>
