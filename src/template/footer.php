@@ -34,13 +34,13 @@
   </footer>
   
   <!-- Bootstrap core JavaScript -->
-  <script src="/js/jquery.min.js"></script>
-  <script src="/js/popper.min.js"></script>
-  <script src="/js/bootstrap.min.js"></script>
+  <script src="js/jquery.min.js"></script>
+  <script src="js/popper.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
   <!-- Custom scripts for this template -->
-  <script src="/js/clean-blog.min.js"></script>
-  <script src="/js/scrollreveal.min.js"></script>
-  <script src="/js/qkconsent.js" data-cfasync="false"></script>
+  <script src="js/clean-blog.min.js"></script>
+  <script src="js/scrollreveal.min.js"></script>
+  <script src="js/qkconsent.js" data-cfasync="false"></script>
   <script>
   window.addEventListener('load', function(){
     window.cookieconsent.initialise({

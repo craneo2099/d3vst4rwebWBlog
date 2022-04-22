@@ -1,5 +1,5 @@
 Options Indexes FollowSymLinks
 RewriteEngine On
 RewriteCond %{REQUEST_FILENAME} !-f
-RewriteRule ^.*$ /DevstarWeb/src/entradas/index.php [L,QSA]
+RewriteRule ^.*$ index.php [L,QSA]
 ErrorDocument 404 /404.php

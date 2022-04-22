@@ -17,7 +17,7 @@
       "image": "Img/postImg/logoBlog.ico"
     }
   </script>
-  <base href="http://localhost:3000/DevstarWeb/src/">
+  <base href="<?=$baseindex?>">
   <!-- Bootstrap core CSS -->
   <!-- <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet"> -->
   <link rel="stylesheet" href="css/bootstrap.css">
@@ -33,4 +33,5 @@
   <link rel="stylesheet" href="css/slider.min.css">
   <link rel="stylesheet" href="css/main.css">
   <link rel="stylesheet" href="css/blogStyle.css">
+  <link rel="stylesheet" href="css/qkconsent.css">
 </head>
