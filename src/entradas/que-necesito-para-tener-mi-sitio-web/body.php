@@ -1,78 +1,7 @@
-<!DOCTYPE html>
-<html lang="es">
 
-<head>
-
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <meta name="description" content="Consejos y consideraciones para cuando decidas comenzar a hacer tu sitio web">
-  <meta name="author" content="Devstar Novatech">
-  <link rel="shortcut icon" href="/Img/postImg/logoBlog.ico">
-  <title>¿Que necesito para hacer mi sitio web? | Devstar Novatech Blog</title>
-  <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "BlogPosting",
-      "headline": "Requerimientos para crear mi sitio web",
-      "datePublished": "2021-02-26T08:00:00-06:00"
-    }
-    </script>
-  <!-- Bootstrap core CSS -->
-  <!-- <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet"> -->
-  <link rel="stylesheet" href="/css/bootstrap.css">
-
-  <!-- Custom fonts for this template -->
-  <!-- <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css"> -->
-  <link rel="stylesheet" href="/css/font-awesome.min.css">
-  <link href='https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
-  <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
-
-  <!-- Custom styles for this template -->
-  <link href="/css/clean-blog.min.css" rel="stylesheet">
-  <link rel="stylesheet" href="/css/slider.min.css">
-  <link rel="stylesheet" href="/css/main.css">
-  <link rel="stylesheet" href="/css/blogStyle.css">
-	<link rel="stylesheet" type="text/css" href="/css/qkconsent.css" />
-  <script>
-		window.dataLayer = window.dataLayer || [];
-		function gtag(){dataLayer.push(arguments);}
-		gtag('js', new Date());
-  
-		gtag('config', 'UA-142838512-1');
-	  </script>
-</head>
-
-<body>
-
-  <!-- Navigation -->
-  <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
-    <div class="container">
-      <a class="navbar-brand" href="http://devstar-novatech.com/">Devstar Novatech</a>
-      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-        Menú
-        <i class="fa fa-bars"></i>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarResponsive">
-        <ul class="navbar-nav ml-auto">
-          <li class="nav-item">
-            <a class="nav-link" href="/">Inicio</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="/aboutBlog.html">Acerca de</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="/#publicaciones">Posts</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="/contactBlog.php">Contacto</a>
-          </li>
-        </ul>
-      </div>
-    </div>
-  </nav>
 
   <!-- Page Header -->
-  <header class="masthead" style="background-image: url('/Img/postImg/hosting-servidoresXl.jpg');">
+  <header class="masthead" style="background-image: url('img/postImg/hosting-servidoresXl.jpg');">
     <div class="overlay"></div>
     <div class="container">
       <div class="row">
@@ -121,7 +50,7 @@
 
           <h2 class="section-heading">Necesitas un nombre</h2>
 
-          <p class="text-justify">éste te identificará en la red y por lo tanto, necesitas que te identifique. El nombre es el que conocemos como dominio, y consta de nombre y extensión la cual puede ser .com, .net. org, etc. También la extensión puede tener tu código de país por ejemplo .mx (México), .ar (Argentina), .pe (Perú), etc. Una vez que hayas elegido la extensión de tu dominio tienes que registrarlo. En Devstar Novatech te ofrecemos diferentes extensiones y te asesoramos en el proceso para saber si el nombre que deseas se encuentra disponible, puedes contactarnos haciendo <a href="../contactBlog.php">click aquí</a>. El registro se puede contratar a partir de un año en adelante.</p>
+          <p class="text-justify">éste te identificará en la red y por lo tanto, necesitas que te identifique. El nombre es el que conocemos como dominio, y consta de nombre y extensión la cual puede ser .com, .net. org, etc. También la extensión puede tener tu código de país por ejemplo .mx (México), .ar (Argentina), .pe (Perú), etc. Una vez que hayas elegido la extensión de tu dominio tienes que registrarlo. En Devstar Novatech te ofrecemos diferentes extensiones y te asesoramos en el proceso para saber si el nombre que deseas se encuentra disponible, puedes contactarnos haciendo <a href="contactBlog.php">click aquí</a>. El registro se puede contratar a partir de un año en adelante.</p>
 
           <!-- <blockquote class="blockquote">The dreams of yesterday are the hopes of today and the reality of tomorrow. Science has not yet mastered prophecy. We predict too much for the next year and yet far too little for the next ten.</blockquote> -->
 
@@ -162,9 +91,9 @@
           <h2 class="section-heading">Programación</h2>
 
           <p class="text-justify">Si planeas hacer tú mismo el sitio web puedes ayudarte de un sistema de gestión de contenido (CMS), estas herramientas ofrecen integración con diferentes aplicaciones y sistemas, además de ser muy fácil de administrar para las empresas, sin tener que depender de su área de sistemas o de proveedores externos.</p>
-          <p>Sin embargo si quieres evitar esta situación, ahorrar tiempo y tener un sitio web profesional, puedes <a href="">contactarnos</a> ofrecemos servicios agiles de implementación para que puedas tener tu sitio web.</p>
+          <p>Sin embargo si quieres evitar esta situación, ahorrar tiempo y tener un sitio web profesional, puedes <a href="contactBlog.php">contactarnos</a> ofrecemos servicios agiles de implementación para que puedas tener tu sitio web.</p>
           <div class="d-flex justify-content-center">
-            <img class="img-fluid " style="width: 50%;" src="/Img/postImg/sitio-web.webp" alt="sitio-web.webp">
+            <img class="img-fluid " style="width: 50%;" src="img/postImg/sitio-web.webp" alt="sitio-web.webp">
           </div>
           <span class="caption text-muted">Tu sitio web es tu carta de presentación con el mundo, haz que sea única y que refleje la verdadera identidad de tu marca.</span>
 
@@ -183,7 +112,7 @@
           <div class="">
             <div class="d-flex justify-content-center"><p class="h3">¿Tienes alguna duda o comentario?</p></div>
             <div class="d-flex justify-content-center">
-              <a class="btn btn-outline-dark rounded mt-2" href="/contactBlog.php"><b>Contacto</b></a>
+              <a class="btn btn-outline-dark rounded mt-2" href="contactBlog.php"><b>Contacto</b></a>
             </div>
           </div>
           <!-- <p>Placeholder text by
@@ -196,105 +125,3 @@
   </article>
 
   <hr>
-
-  <!-- Footer -->
-  <footer>
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-8 col-md-10 mx-auto">
-          <ul class="list-inline text-center">
-            <li class="list-inline-item">
-              <a href="http://devstar-novatech.com/">
-                <span class="fa-stack fa-2x">
-                  <!-- <i class="fas fa-circle fa-stack-2x"></i>
-                  <i class="fab fa-twitter fa-stack-1x fa-inverse"></i> -->
-                  <i class="fa fa-facebook-official" aria-hidden="true"></i>
-                </span>
-              </a>
-            </li>
-            <li class="list-inline-item">
-              <a href="http://devstar-novatech.com/">
-                <span class="fa-stack fa-2x">
-                  <!-- <i class="fas fa-circle fa-stack-2x"></i>
-                  <i class="fab fa-facebook-f fa-stack-1x fa-inverse"></i> -->
-                  <i class="fa fa-twitter" aria-hidden="true"></i>
-                </span>
-              </a>
-            </li>
-            <li class="list-inline-item">
-              <a href="http://devstar-novatech.com/">
-                <span class="fa-stack fa-2x">
-                  <!-- <i class="fas fa-circle fa-stack-2x"></i>
-                  <i class="fab fa-github fa-stack-1x fa-inverse"></i> -->
-                  <i class="fa fa-instagram" aria-hidden="true"></i>
-                </span>
-              </a>
-            </li>
-          </ul>
-          <p class="copyright text-muted">Copyright &copy; Devstar Novatech 2021</p>
-        </div>
-      </div>
-    </div>
-  </footer>
-
-  <!-- Bootstrap core JavaScript -->
-  <script src="/js/jquery.min.js"></script>
-  <script src="/js/popper.min.js"></script>
-  <script src="/js/bootstrap.min.js"></script>
-  <!-- Custom scripts for this template -->
-  <script src="/js/clean-blog.min.js"></script>
-  <script src="/js/scrollreveal.min.js"></script>
-
-  <script src="/js/qkconsent.js" data-cfasync="false"></script>
-  <script>
-  window.addEventListener('load', function(){
-    window.cookieconsent.initialise({
-     revokeBtn: "<div class='cc-revoke'></div>",
-     type: "opt-in",
-     theme: "classic",
-     palette: {
-         popup: {
-             background: "rgb(28 44 23 / 90%)",
-             text: "#fff"
-          },
-         button: {
-             background: "#CAD160",
-             text: "#000"
-          }
-      },
-     content: {
-         message: "Utilizamos cookies para mejorar la experiencia de los usuarios y para analizar "+
-         "la concurrencia al sitio web. Por estas razones, es posible que compartamos los datos que ha"+
-         " proporcionado con nuestros socios de analíticas web. Al hacer clic en \"Acepto cookies\","+
-         " usted autoriza el almacenamiento de todas las tecnologías descriptas en nuestra Política de"+
-         " cookies en su dispositivo.",
-         link: "politicas",
-         allow: "Acepto cookies",
-         deny: "Rechazar",
-         href: "mrvcookie.com/cookies"
-      },
-      onInitialise: function(status) {
-        if(status == cookieconsent.status.allow) myScripts();
-      },
-      onStatusChange: function(status) {
-        if (this.hasConsented()) myScripts();
-      }
-    })
-  });
-  
-  function myScripts() {
-  
-     // Paste here your scripts that use cookies requiring consent. See examples below
-  
-     // Google Analytics, you need to change 'UA-00000000-1' to your ID
-        (function(wdw,doc,tag,url,ja,a,m){
-        a=doc.createElement(tag),m=doc.getElementsByTagName(tag)[0];
-        a.async=1;
-        a.src=url;
-        m.parentNode.insertBefore(a,m)
-        })(window,document,'script','https://www.googletagmanager.com/gtag/js?id=UA-142838512-1','gtag');
-  }
-  </script>
-</body>
-
-</html>
