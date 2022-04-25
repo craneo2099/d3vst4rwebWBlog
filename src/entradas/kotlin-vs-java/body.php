@@ -1,63 +1,5 @@
-<!DOCTYPE html>
-<html lang="es">
-
-<head>
-
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <meta name="description" content="Te decimos cuales son las ventajas y caracterisiticas de Kotlin y Java para que puedas tomar la mejor decisión en tu próximo desarrollo">
-  <meta name="author" content="Devstar Novatech">
-  <title>Kotlin vs Java: ¿Cuál es mejor? | Devstar Novatech Blog</title>
-  <link rel="shortcut icon" href="../../img/postImg/logoBlog.ico">
-
-  <!-- Bootstrap core CSS -->
-  <!-- <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet"> -->
-  <link rel="stylesheet" href="../../css/bootstrap.css">
-
-  <!-- Custom fonts for this template -->
-  <!-- <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css"> -->
-  <link rel="stylesheet" href="../../css/font-awesome.min.css">
-  <link href='https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
-  <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
-
-  <!-- Custom styles for this template -->
-  <link rel="stylesheet" href="../../css/clean-blog.min.css">
-  <link rel="stylesheet" href="../../css/slider.min.css">
-  <link rel="stylesheet" href="../../css/main.css">
-  <link rel="stylesheet" href="../../css/blogStyle.css">
-</head>
-
-<body>
-
-  <!-- Navigation -->
-  <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
-    <div class="container">
-      <a class="navbar-brand" href="../../index.html">Devstar Novatech</a>
-      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-        Menú
-        <i class="fa fa-bars"></i>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarResponsive">
-        <ul class="navbar-nav ml-auto">
-          <li class="nav-item">
-            <a class="nav-link" href="../../blog.html">Inicio</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="../../aboutBlog.html">Acerca de</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="../../Blog.html#publicaciones">Posts</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="../../contactBlog.html">Contacto</a>
-          </li>
-        </ul>
-      </div>
-    </div>
-  </nav>
-
   <!-- Page Header -->
-  <header class="masthead" style="background-image: url('../../img/postImg/javaXl.jpg');
+  <header class="masthead" style="background-image: url('Img/postImg/javaXl.jpg');
   background-color: #000; opacity: 1">
     <div class="overlay"></div>
     <div class="container">
@@ -67,7 +9,7 @@
             <h1>Kotlin vs Java: ¿Cuál es mejor y para qué?</h1>
             <h2 class="subheading">Ponemos sobre la mesa las ventajas y características de cada uno y evaluamos cual es mejor y en que aspectos.</h2>
             <span class="meta">Publicado por
-              <a href="../../index.html">Devstar Novatech</a>
+              <a href="http://devstar-novatech.com/">Devstar Novatech</a>
               el 15 de Abril de 2021</span>
           </div>
         </div>
@@ -90,7 +32,7 @@
           <p class="text-justify">En el año 2017 Google anunció soporte de primera clase para <b>Kotlin</b> en Android, poniéndose al mismo nivel que <b>Java</b>. El objetivo de <b>Kotlin</b> es no solo para el desarrollo para aplicaciones móviles, sino para irse abriendo camino en otros sectores.</p>
 
           <div class="d-flex justify-content-center">
-            <img class="img-fluid" src="../../img/postImg/kotlinLogo.webp" alt="Kotlin-Logo.webp">
+            <img class="img-fluid" src="Img/postImg/kotlinLogo.webp" alt="Kotlin-Logo.webp">
           </div>
           <span class="caption text-muted">Kotlin es oficialmente el lenguaje principal de desarrollo para Android.</span>
 
@@ -128,7 +70,7 @@
           <p class="text-justify">La máquina virtual de Java (JVM) es un elemento clave en la portabilidad del código de <b>Java</b>, ya que esta será la que convierta nuestro código a lenguaje máquina para poder ser interpretado, llevando acabo la intención de escribir el código una sola vez y poder ejecutar en cualquier dispositivo.</p>
 
           <div class="d-flex justify-content-center">
-            <img class="img-fluid" src="../../img/postImg/JavaLogoXl.jpg" alt="JavaLogoXl.jpg">
+            <img class="img-fluid" src="Img/postImg/JavaLogoXl.jpg" alt="JavaLogoXl.jpg">
           </div>
 
           <span class="caption text-muted">Java es uno de los lenguajes mas fuertes, robustos y con una amplia trayectoria.</span>
@@ -153,11 +95,11 @@
 
           <p class="text-justify">Se puede decir que a pesar de que <b>Kotlin</b> es un lenguaje “joven” cada vez está ganando más terreno en los diferentes sectores, además de que se ha vuelto el lenguaje oficial de desarrollo para Android, sin embargo tiene mucho camino por recorrer, el cual <b>Java</b> con su larga trayectoria, dinamismo, robustez y seguridad se ha ganado durante décadas, evolucionando y manteniéndose vigente, con alta demanda y desempeño para cualquier tipo desarrollo.</p>
 
-          <p class="text-justify">Si necesitas asesoría o ayuda con alguno de tus proyectos con <b>Kotlin</b> o <b>Java</b>, en <a href="../../index.html"><b>Devstar Novatech</b></a> contamos con expertos que pueden orientarte y ayudarte en el proceso de desarrollo, con el fin de que obtengas un producto útil para el desempeño de tus actividades.</p>     
+          <p class="text-justify">Si necesitas asesoría o ayuda con alguno de tus proyectos con <b>Kotlin</b> o <b>Java</b>, en <a href="http://devstar-novatech.com/"><b>Devstar Novatech</b></a> contamos con expertos que pueden orientarte y ayudarte en el proceso de desarrollo, con el fin de que obtengas un producto útil para el desempeño de tus actividades.</p>     
           <div class="">
             <div class="d-flex justify-content-center"><p class="h3">¿Tienes alguna duda o comentario?</p></div>
             <div class="d-flex justify-content-center">
-              <a class="btn btn-outline-dark rounded mt-2" href="../../contactBlog.html"><b>Contacto</b></a>
+              <a class="btn btn-outline-dark rounded mt-2" href="contactBlog.php"><b>Contacto</b></a>
             </div>
           </div>
           
@@ -167,50 +109,3 @@
   </article>
 
   <hr>
-
-  <!-- Footer -->
-  <footer>
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-8 col-md-10 mx-auto">
-          <ul class="list-inline text-center">
-            <li class="list-inline-item">
-              <a href="../../index.html">
-                <span class="fa-stack fa-2x">
-                  <i class="fa fa-facebook-official" aria-hidden="true"></i>
-                </span>
-              </a>
-            </li>
-            <li class="list-inline-item">
-              <a href="../../index.html">
-                <span class="fa-stack fa-2x">
-
-                  <i class="fa fa-twitter" aria-hidden="true"></i>
-                </span>
-              </a>
-            </li>
-            <li class="list-inline-item">
-              <a href="../../index.html">
-                <span class="fa-stack fa-2x">
-                  <i class="fa fa-instagram" aria-hidden="true"></i>
-                </span>
-              </a>
-            </li>
-          </ul>
-          <p class="copyright text-muted">Copyright &copy; Devstar Novatech 2021</p>
-        </div>
-      </div>
-    </div>
-  </footer>
-
-  <!-- Bootstrap core JavaScript -->
-  <script src="../../js/jquery.min.js"></script>
-  <script src="../../js/popper.min.js"></script>
-  <script src="../../js/bootstrap.min.js"></script>
-  <!-- Custom scripts for this template -->
-  <script src="../../js/clean-blog.min.js"></script>
-  <script src="../../js/scrollreveal.min.js"></script>
-
-</body>
-
-</html>

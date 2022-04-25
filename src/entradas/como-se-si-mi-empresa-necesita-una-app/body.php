@@ -1,63 +1,6 @@
-<!DOCTYPE html>
-<html lang="es">
-
-<head>
-
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <meta name="description" content="Te explicamos los diferentes tipos de aplicaciones móviles y cual es la mejor opción para tu empresa o negocio de acuerdo a tu capital">
-  <meta name="author" content="Devstar Novatech">
-  <link rel="shortcut icon" href="../../img/postImg/logoBlog.ico">
-  <title>¿Cómo se si mi empresa necesita una App? | Devstar Novatech Blog</title>
-
-  <!-- Bootstrap core CSS -->
-  <!-- <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet"> -->
-  <link rel="stylesheet" href="../../css/bootstrap.css">
-
-  <!-- Custom fonts for this template -->
-  <!-- <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css"> -->
-  <link rel="stylesheet" href="../../css/font-awesome.min.css">
-  <link href='https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
-  <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
-
-  <!-- Custom styles for this template -->
-  <link href="../../css/clean-blog.min.css" rel="stylesheet">
-  <link rel="stylesheet" href="../../css/slider.min.css">
-  <link rel="stylesheet" href="../../css/main.css">
-
-</head>
-
-<body>
-
-  <!-- Navigation -->
-  <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
-    <div class="container">
-      <a class="navbar-brand" href="../../index.html">Devstar Novatech</a>
-      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-        Menú
-        <i class="fa fa-bars"></i>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarResponsive">
-        <ul class="navbar-nav ml-auto">
-          <li class="nav-item">
-            <a class="nav-link" href="../../blog.html">Inicio</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="../../aboutBlog.html">Acerca de</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="../../Blog.html#publicaciones">Posts</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="../../contactBlog.html">Contacto</a>
-          </li>
-        </ul>
-      </div>
-    </div>
-  </nav>
 
   <!-- Page Header -->
-  <header class="masthead" style="background-image: url('../../img/postImg/stock-624712_1920.jpg')">
+  <header class="masthead" style="background-image: url('Img/postImg/stock-624712_1920.jpg')">
     <div class="overlay"></div>
     <div class="container">
       <div class="row">
@@ -66,7 +9,7 @@
             <h1>¿Cómo se si mi empresa necesita una App?</h1>
             <h2 class="subheading">Tipos de aplicaciones móviles y cual es la mejor opción de acuerdo a tu capital</h2>
             <span class="meta">Publicado por
-              <a href="../../index.html">Devstar Novatech</a>
+              <a href="www.devstar-novatech.com">Devstar Novatech</a>
               el 15 de Marzo de 2021</span>
           </div>
         </div>
@@ -171,7 +114,7 @@
             </ul>  
           </p>
 
-          <p class="text-justify">Después de saber qué tipos de Apps existen, explicaremos las razones por las cuales podrías necesitar una App en tu negocio o empresa, si deseas asesoría o tienes dudas con el tema anterior, contáctanos <a href="../../contactBlog.html">aquí</a>.</p>
+          <p class="text-justify">Después de saber qué tipos de Apps existen, explicaremos las razones por las cuales podrías necesitar una App en tu negocio o empresa, si deseas asesoría o tienes dudas con el tema anterior, contáctanos <a href="/contactBlog.php">aquí</a>.</p>
 
           <h2 class="section-heading">¿Para qué sirven las aplicaciones para empresas?</h2>
 
@@ -182,7 +125,7 @@
           <h2 class="section-heading">¿Hay actualmente aplicaciones móviles para empresas?</h2>
 
           <!-- <p class="text-justify">
-          Ya vimos los diferentes tipos de Apps, pero ¿cuál es la mejor? Depende de tus necesidades y presupuesto, la App Nativa es la más eficiente en desempeño, funciones y rendimiento pero a la vez es la costosa en su desarrollo y su lanzamiento es más lento porque se necesita un desarrollo para cada plataforma, la App hibrida es un poco menos eficiente en desempeño pero puede hacer uso de las funciones nativas del dispositivo (cámara, micrófono, notificaciones push, etc.) su desarrollo es más rápido ya que se hace en base a un código que se  transforma a las diferentes plataformas y se adecuaciones y por ende su tiempo de desarrollo y costo son un relativamente más económicos que las nativas y por último las PWA están limitadas al no poder usar todas las funciones nativas de los dispositivos, sin embargo eso no quiere decir que no sean poderosas herramientas, son la opción más económica en tiempo de desarrollo y costo, dependiendo de las necesidades tu negocio. Si necesitas asesoría puedes mandarnos un mensaje <a href="../../contactBlog.html">aquí</a>.
+          Ya vimos los diferentes tipos de Apps, pero ¿cuál es la mejor? Depende de tus necesidades y presupuesto, la App Nativa es la más eficiente en desempeño, funciones y rendimiento pero a la vez es la costosa en su desarrollo y su lanzamiento es más lento porque se necesita un desarrollo para cada plataforma, la App hibrida es un poco menos eficiente en desempeño pero puede hacer uso de las funciones nativas del dispositivo (cámara, micrófono, notificaciones push, etc.) su desarrollo es más rápido ya que se hace en base a un código que se  transforma a las diferentes plataformas y se adecuaciones y por ende su tiempo de desarrollo y costo son un relativamente más económicos que las nativas y por último las PWA están limitadas al no poder usar todas las funciones nativas de los dispositivos, sin embargo eso no quiere decir que no sean poderosas herramientas, son la opción más económica en tiempo de desarrollo y costo, dependiendo de las necesidades tu negocio. Si necesitas asesoría puedes mandarnos un mensaje <a href="/contactBlog.php">aquí</a>.
           </p> -->
 
           <p class="text-justify">Si, ya sean de paga o gratuitas puedes hacer uso de múltiples plataformas existentes, las cuales tiene funciones de mensajería empresarial, almacenamiento, gestión, monitorización y seguridad, entre muchas otras.
@@ -190,7 +133,7 @@
           </p>
 
           <div class="d-flex justify-content-center">
-            <img class="img-fluid" src="../../img/postImg/empresa-app.jpg" alt="empresa-app.jpg">
+            <img class="img-fluid" src="Img/postImg/empresa-app.jpg" alt="empresa-app.jpg">
           </div>
           <span class="caption text-muted">Las Apps son poderosas herramientas que nos permiten estar al tanto de eventos en tiempo real.</span>
 
@@ -252,7 +195,7 @@
             </ul>  
           </p>
 
-          <p class="text-justify">En <a href="../index.html"><b>Devstar Novatech</b></a> podemos ayudarte a elegir la mejor App de acuerdo con los requerimientos de tu empresa, casi una década de experiencia en el desarrollo y planeación de software nos respalda.</p>
+          <p class="text-justify">En <a href="http://devstar-novatech.com"><b>Devstar Novatech</b></a> podemos ayudarte a elegir la mejor App de acuerdo con los requerimientos de tu empresa, casi una década de experiencia en el desarrollo y planeación de software nos respalda.</p>
 
 <!--           <small class="citasBlogFont text-muted">Fuente, 
             <a href="https://qmarketing.mx/como-saber-si-mi-empresa-necesita-una-app/">qmarketing</a>.
@@ -261,7 +204,7 @@
           <div class="">
             <div class="d-flex justify-content-center"><p class="h3">¿Tienes alguna duda o comentario?</p></div>
             <div class="d-flex justify-content-center">
-              <a class="btn btn-outline-dark rounded mt-2" href="../../contactBlog.html"><b>Contacto</b></a>
+              <a class="btn btn-outline-dark rounded mt-2" href="contactBlog.php"><b>Contacto</b></a>
             </div>
           </div>
           
@@ -271,58 +214,3 @@
   </article>
 
   <hr>
-
-  <!-- Footer -->
-  <footer>
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-8 col-md-10 mx-auto">
-          <ul class="list-inline text-center">
-            <li class="list-inline-item">
-              <a href="../../index.html">
-                <span class="fa-stack fa-2x">
-                  <!-- <i class="fas fa-circle fa-stack-2x"></i>
-                  <i class="fab fa-twitter fa-stack-1x fa-inverse"></i> -->
-                  <i class="fa fa-facebook-official" aria-hidden="true"></i>
-                </span>
-              </a>
-            </li>
-            <li class="list-inline-item">
-              <a href="../../index.html">
-                <span class="fa-stack fa-2x">
-                  <!-- <i class="fas fa-circle fa-stack-2x"></i>
-                  <i class="fab fa-facebook-f fa-stack-1x fa-inverse"></i> -->
-                  <i class="fa fa-twitter" aria-hidden="true"></i>
-                </span>
-              </a>
-            </li>
-            <li class="list-inline-item">
-              <a href="../../index.html">
-                <span class="fa-stack fa-2x">
-                  <!-- <i class="fas fa-circle fa-stack-2x"></i>
-                  <i class="fab fa-github fa-stack-1x fa-inverse"></i> -->
-                  <i class="fa fa-instagram" aria-hidden="true"></i>
-                </span>
-              </a>
-            </li>
-          </ul>
-          <p class="copyright text-muted">Copyright &copy; Devstar Novatech 2021</p>
-        </div>
-      </div>
-    </div>
-  </footer>
-
-  <!-- Bootstrap core JavaScript -->
-  <!-- <script src="vendor/jquery/jquery.min.js"></script>
-  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script> -->
-  <script src="../../js/jquery.min.js"></script>
-  <script src="../../js/popper.min.js"></script>
-  <script src="../../js/bootstrap.min.js"></script>
-  <!-- Custom scripts for this template -->
-  <script src="../../js/clean-blog.min.js"></script>
-  <script src="../../js/scrollreveal.min.js"></script>
-  <!-- <script src="../js/propio.js" charset="utf-8"></script> -->
-
-</body>
-
-</html>

@@ -6,7 +6,7 @@
   <meta name="description" content="Dale un vistazo, tenemos todo lo que necesitas saber sobre tecnología, software, hardware y computación">
   <meta name="author" content="Devstar Novatech">
   <title>Devstar Novatech Blog | Página 2</title>
-  <link rel="shortcut icon" href="img/postImg/logoBlog.ico">
+  <link rel="shortcut icon" href="Img/postImg/logoBlog.ico">
   <!-- <link rel="canonical" href="http://devstar-novatech.com/"/> -->
   <!-- Bootstrap core CSS -->
   <!-- <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet"> -->
@@ -23,6 +23,14 @@
   <link rel="stylesheet" href="css/slider.min.css">
   <link rel="stylesheet" href="css/main.css">
   <link rel="stylesheet" href="css/blogStyle.css">
+	<link rel="stylesheet" type="text/css" href="css/qkconsent.css" />
+  <script>
+		window.dataLayer = window.dataLayer || [];
+		function gtag(){dataLayer.push(arguments);}
+		gtag('js', new Date());
+  
+		gtag('config', 'UA-142838512-1');
+	  </script>
 </head>
 
 <body onresize="FuntionResize()">
@@ -30,7 +38,7 @@
   <!-- Navigation -->
   <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
     <div class="container">
-      <a class="navbar-brand" href="index.html">Devstar Novatech</a>
+      <a class="navbar-brand" href="http://devstar-novatech.com">Devstar Novatech</a>
       <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
         Menú
         <i class="fa fa-bars"></i>
@@ -38,7 +46,7 @@
       <div class="collapse navbar-collapse" id="navbarResponsive">
         <ul class="navbar-nav ml-auto">
           <li class="nav-item togglerItem">
-            <a class="nav-link collapseJQ" href="blog.html">Inicio</a>
+            <a class="nav-link collapseJQ" href="index.html">Inicio</a>
           </li>
           <li class="nav-item togglerItem">
             <a class="nav-link collapseJQ" href="aboutBlog.html">Acerca de</a>
@@ -47,7 +55,7 @@
             <a class="nav-link collapseJQ" href="#publicaciones">Posts</a>
           </li>
           <li class="nav-item togglerItem">
-            <a class="nav-link collapseJQ" href="contactBlog.html">Contacto</a>
+            <a class="nav-link collapseJQ" href="contactBlog.php">Contacto</a>
           </li>
         </ul>
       </div>
@@ -55,7 +63,7 @@
   </nav>
 
   <!-- Page Header -->
-  <header class="masthead" style="background-image: url('img/fondoDNmovil_md.webp')">
+  <header class="masthead" style="background-image: url('Img/fondoDNmovil_md.webp')">
     <div class="overlay"></div>
     <div class="container">
       <div class="row">
@@ -75,7 +83,21 @@
     <div class="row">
       <div class="col-lg-8 col-md-10 mx-auto">
         <div class="post-preview">
-          <a href="blog/como-acelerar-la-carga-de-un-sitio-web/index.html">
+          <a href="entradas/kotlin-vs-java/">
+            <h2 class="post-title">
+              Kotlin vs Java: ¿Cuál es mejor y para qué?
+            </h2>
+            <h3 class="post-subtitle">
+              Ponemos sobre la mesa las ventajas y características de cada uno y evaluamos cual es mejor y en que aspectos.
+            </h3>
+          </a>
+          <p class="post-meta">Posted by
+            <a href="http://devstar-novatech.com/">Devstar Novatech</a>
+            el 15 de abril de 2021</p>
+        </div>
+        <hr>
+        <div class="post-preview">
+          <a href="entradas/como-acelerar-la-carga-de-un-sitio-web/">
             <h2 class="post-title">
               Como acelerar la carga de contenido en un sitio web
             </h2>
@@ -84,12 +106,12 @@
             </h3>
           </a>
           <p class="post-meta">Publicado por
-            <a href="../index.html">Devstar Novatech</a>
+            <a href="http://devstar-novatech.com/">Devstar Novatech</a>
             el 26 de marzo de 2021</p>
-        </div> 
+        </div>
         <hr>
         <div class="post-preview">
-          <a href="blog/como-se-si-mi-empresa-necesita-una-app/index.html">
+          <a href="entradas/como-se-si-mi-empresa-necesita-una-app/">
             <h2 class="post-title">
               ¿Cómo se si mi empresa necesita una App?
             </h2>
@@ -98,12 +120,12 @@
             </h3>
           </a>
           <p class="post-meta">Publicado por
-            <a href="../index.html">Devstar Novatech</a>
+            <a href="http://devstar-novatech.com/">Devstar Novatech</a>
             el 15 de marzo de 2021</p>
         </div>
         <hr>
         <div class="post-preview">
-          <a href="blog/que-necesito-para-tener-mi-sitio-web/index.html">
+          <a href="entradas/que-necesito-para-tener-mi-sitio-web/">
             <h2 class="post-title">
               ¿Que necesito para tener mi sitio web?
             </h2>
@@ -112,7 +134,7 @@
             </h3>
           </a>
           <p class="post-meta">Publicado por
-            <a href="../index.html">Devstar Novatech</a>
+            <a href="http://devstar-novatech.com/">Devstar Novatech</a>
             el 26 de febrero de 2021</p>
         </div>
         <hr>
@@ -120,9 +142,9 @@
         <nav aria-label="paginacion">
           <ul id="paginadorBlog" class="pagination pagination-lg justify-content-center">
             <li class="page-item">
-              <a class="page-link" href="blog.html" tabindex="-1">Anterior</a>
+              <a class="page-link" href="index.html" tabindex="-1">Anterior</a>
             </li>
-            <li class="page-item"><a class="page-link" href="blog.html">1</a>
+            <li class="page-item"><a class="page-link" href="index.html">1</a>
             </li>
             <li class="page-item active">
               <a class="page-link" href="#">2</a><span class="sr-only">(current)</span>
@@ -146,21 +168,21 @@
         <div class="col-lg-8 col-md-10 mx-auto">
           <ul class="list-inline text-center">
             <li class="list-inline-item">
-              <a href="index.html">
+              <a href="http://devstar-novatech.com">
                 <span class="fa-stack fa-2x">
                   <i class="fa fa-facebook-official" aria-hidden="true"></i>
                 </span>
               </a>
             </li>
             <li class="list-inline-item">
-              <a href="index.html">
+              <a href="http://devstar-novatech.com">
                 <span class="fa-stack fa-2x">
                   <i class="fa fa-twitter" aria-hidden="true"></i>
                 </span>
               </a>
             </li>
             <li class="list-inline-item">
-              <a href="index.html">
+              <a href="http://devstar-novatech.com">
                 <span class="fa-stack fa-2x">
                   <i class="fa fa-instagram" aria-hidden="true"></i>
                 </span>
@@ -184,6 +206,56 @@
   <script src="js/clean-blog.min.js"></script>
   <script src="js/scrollreveal.min.js"></script>
   <script src="js/propioBlog.js"></script>
+<script src="js/qkconsent.js" data-cfasync="false"></script>
+<script>
+window.addEventListener('load', function(){
+  window.cookieconsent.initialise({
+   revokeBtn: "<div class='cc-revoke'></div>",
+   type: "opt-in",
+   theme: "classic",
+   palette: {
+       popup: {
+           background: "rgb(28 44 23 / 90%)",
+           text: "#fff"
+        },
+       button: {
+           background: "#CAD160",
+           text: "#000"
+        }
+    },
+   content: {
+       message: "Utilizamos cookies para mejorar la experiencia de los usuarios y para analizar "+
+       "la concurrencia al sitio web. Por estas razones, es posible que compartamos los datos que ha"+
+       " proporcionado con nuestros socios de analíticas web. Al hacer clic en \"Acepto cookies\","+
+       " usted autoriza el almacenamiento de todas las tecnologías descriptas en nuestra Política de"+
+       " cookies en su dispositivo.",
+       link: "politicas",
+       allow: "Acepto cookies",
+       deny: "Rechazar",
+       href: "mrvcookie.com/cookies"
+    },
+    onInitialise: function(status) {
+      if(status == cookieconsent.status.allow) myScripts();
+    },
+    onStatusChange: function(status) {
+      if (this.hasConsented()) myScripts();
+    }
+  })
+});
+
+function myScripts() {
+
+   // Paste here your scripts that use cookies requiring consent. See examples below
+
+   // Google Analytics, you need to change 'UA-00000000-1' to your ID
+      (function(wdw,doc,tag,url,ja,a,m){
+		  a=doc.createElement(tag),m=doc.getElementsByTagName(tag)[0];
+		  a.async=1;
+		  a.src=url;
+		  m.parentNode.insertBefore(a,m)
+      })(window,document,'script','https://www.googletagmanager.com/gtag/js?id=UA-142838512-1','gtag');
+}
+</script>
 </body>
 
 </html>

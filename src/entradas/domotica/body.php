@@ -1,63 +1,6 @@
-<!DOCTYPE html>
-<html lang="es">
-
-<head>
-
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <meta name="description" content="¿Es el futuro en nuestras empresas y hogares? la Domótica se perfila para ser una herramienta clave de nuestra vida cotidiana.">
-  <meta name="author" content="Devstar Novatech">
-  <title>Domótica | Devstar Novatech Blog</title>
-  <link rel="shortcut icon" href="../../img/postImg/logoBlog.ico">
-
-  <!-- Bootstrap core CSS -->
-  <!-- <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet"> -->
-  <link rel="stylesheet" href="../../css/bootstrap.css">
-
-  <!-- Custom fonts for this template -->
-  <!-- <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css"> -->
-  <link rel="stylesheet" href="../../css/font-awesome.min.css">
-  <link href='https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
-  <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
-
-  <!-- Custom styles for this template -->
-  <link rel="stylesheet" href="../../css/clean-blog.min.css">
-  <link rel="stylesheet" href="../../css/slider.min.css">
-  <link rel="stylesheet" href="../../css/main.css">
-  <link rel="stylesheet" href="../../css/blogStyle.css">
-</head>
-
-<body>
-
-  <!-- Navigation -->
-  <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
-    <div class="container">
-      <a class="navbar-brand" href="../../index.html">Devstar Novatech</a>
-      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-        Menú
-        <i class="fa fa-bars"></i>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarResponsive">
-        <ul class="navbar-nav ml-auto">
-          <li class="nav-item">
-            <a class="nav-link" href="../../blog.html">Inicio</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="../../aboutBlog.html">Acerca de</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="../../Blog.html#publicaciones">Posts</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="../../contactBlog.html">Contacto</a>
-          </li>
-        </ul>
-      </div>
-    </div>
-  </nav>
 
   <!-- Page Header -->
-  <header class="masthead" style="background-image: url('../../img/postImg/smart_home.webp');
+  <header class="masthead" style="background-image: url('Img/postImg/smart_home.webp');
   background-color: #000; opacity: 1">
     <div class="overlay"></div>
     <div class="container">
@@ -67,7 +10,7 @@
             <h1>Domótica</h1>
             <h2 class="subheading">¿Es el futuro en nuestras empresas y hogares?</h2>
             <span class="meta">Publicado por
-              <a href="../../index.html">Devstar Novatech</a>
+              <a href="http://devstar-novatech.com/">Devstar Novatech</a>
               el 26 de Abril de 2021</span>
           </div>
         </div>
@@ -138,7 +81,7 @@
           </p>
 
           <div class="d-flex justify-content-center">
-            <img class="img-fluid" src="../../img/postImg/domotica.webp" alt="domotica.webp">
+            <img class="img-fluid" src="Img/postImg/domotica.webp" alt="domotica.webp">
           </div>
           <span class="caption text-muted">Con la domótica podemos automatizar casi cualquier parte de un inmueble, la combinación de las tareas que realizan los dispositivos cada vez tienen mas campos de aplicación.</span>
 
@@ -230,7 +173,7 @@
 
           <p class="text-justify">¿Ya pensaste como puedes utilizar la domótica para ahorro, monitoreo, seguridad, comunicación seguridad y confort dentro de tus espacios?</p>
 
-          <p class="text-justify">En <a href="../../index.html"><b>Devstar Novatech</b></a> te podemos ayudar con el análisis, diseño e instalación, además de sugerirte los mejores dispositivos inteligentes de acuerdo a tu presupuesto.</p>
+          <p class="text-justify">En <a href="http://devstar-novatech.com/"><b>Devstar Novatech</b></a> te podemos ayudar con el análisis, diseño e instalación, además de sugerirte los mejores dispositivos inteligentes de acuerdo a tu presupuesto.</p>
 
           <p class="text-justify">Esperamos te haya sido fascinante este tema tanto como a nosotros, ¡nos vemos en la siguiente entrada!</p>
 
@@ -239,7 +182,7 @@
           <div>
             <div class="d-flex justify-content-center"><p class="h3">¿Tienes alguna duda o comentario?</p></div>
             <div class="d-flex justify-content-center">
-              <a class="btn btn-outline-dark rounded mt-2" href="../../contactBlog.html"><b>Contacto</b></a>
+              <a class="btn btn-outline-dark rounded mt-2" href="contactBlog.php"><b>Contacto</b></a>
             </div>
           </div>
           
@@ -250,49 +193,4 @@
 
   <hr>
 
-  <!-- Footer -->
-  <footer>
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-8 col-md-10 mx-auto">
-          <ul class="list-inline text-center">
-            <li class="list-inline-item">
-              <a href="../../index.html">
-                <span class="fa-stack fa-2x">
-                  <i class="fa fa-facebook-official" aria-hidden="true"></i>
-                </span>
-              </a>
-            </li>
-            <li class="list-inline-item">
-              <a href="../../index.html">
-                <span class="fa-stack fa-2x">
-
-                  <i class="fa fa-twitter" aria-hidden="true"></i>
-                </span>
-              </a>
-            </li>
-            <li class="list-inline-item">
-              <a href="../../index.html">
-                <span class="fa-stack fa-2x">
-                  <i class="fa fa-instagram" aria-hidden="true"></i>
-                </span>
-              </a>
-            </li>
-          </ul>
-          <p class="copyright text-muted">Copyright &copy; Devstar Novatech 2021</p>
-        </div>
-      </div>
-    </div>
-  </footer>
-
-  <!-- Bootstrap core JavaScript -->
-  <script src="../../js/jquery.min.js"></script>
-  <script src="../../js/popper.min.js"></script>
-  <script src="../../js/bootstrap.min.js"></script>
-  <!-- Custom scripts for this template -->
-  <script src="../../js/clean-blog.min.js"></script>
-  <script src="../../js/scrollreveal.min.js"></script>
-
-</body>
-
-</html>
+  
