@@ -39,7 +39,7 @@
           <p class="text-justify">¿Suena interesante, verdad? ¡Acompañanos!</p>
 
           <div class="d-flex justify-content-center">
-            <img class="img-fluid" src="img/postImg/punto-venta.webp" alt="punto-de-venta-perifericos.webp">
+            <img class="img-fluid" src="Img/postImg/punto-venta.webp" alt="punto-de-venta-perifericos.webp">
           </div>
           <span class="caption text-muted">Un sistema de punto de venta nos da beneficios tales como organización y rapidez en nuestros negocios.</span>
 
@@ -121,7 +121,7 @@
           </p>
 
           <div class="d-flex justify-content-center">
-            <img class="img-fluid" src="img/postImg/punto-venta-restaurants.webp" alt="punto-de-venta">
+            <img class="img-fluid" src="Img/postImg/punto-venta-restaurants.webp" alt="punto-de-venta">
           </div>
           <span class="caption text-muted">Elevando la eficiencia y exactitud aumentamos la productividad de nuestros negocios.</span>
 
