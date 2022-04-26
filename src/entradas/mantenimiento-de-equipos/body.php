@@ -52,7 +52,7 @@
           <p class="text-justify">En <b>Devstar Novatech</b> contamos con la experiencia y el personal calificado para ayudarte a determinar la periodicidad del mantenimiento de tus equipos de cómputo, si tienes alguna duda puedes contactarnos <a  href="contactBlog.php"><b>aquí</b></a></p>
 
           <div class="d-flex justify-content-center">
-            <img class="img-fluid" src="img/postImg/mantenimiento-de-equipos.webp" alt="punto-de-venta-perifericos.webp">
+            <img class="img-fluid" src="Img/postImg/mantenimiento-de-equipos.webp" alt="punto-de-venta-perifericos.webp">
           </div>
           <span class="caption text-muted">Un mantenimiento periódico asegura larga vida a nuestros equipos y la continuidad de los servicios con los que desempeñamos nuestras labores.</span>
 

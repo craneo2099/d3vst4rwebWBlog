@@ -6,7 +6,7 @@
   <meta name="author" content="Devstar Novatech">
   <title><?=$tituloMeta?></title>
 
-  <link rel="shortcut icon" href="img/postImg/logoBlog.ico">
+  <link rel="shortcut icon" href="Img/postImg/logoBlog.ico">
   <script type="application/ld+json">
     {
       "@context": "https://schema.org",
